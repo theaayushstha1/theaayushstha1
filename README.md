@@ -200,6 +200,13 @@ Privacy-first document processor that runs **entirely in your browser**. Process
 
 <img src="https://github-readme-stats.vercel.app/api/top-langs/?username=theaayushstha1&layout=compact&theme=tokyonight&hide_border=true&bg_color=0D1117&title_color=6366F1" height="150"/>
 
+### Contribution Graph
+<picture>
+  <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/theaayushstha1/theaayushstha1/output/github-snake-dark.svg" />
+  <source media="(prefers-color-scheme: light)" srcset="https://raw.githubusercontent.com/theaayushstha1/theaayushstha1/output/github-snake.svg" />
+  <img alt="github-snake" src="https://raw.githubusercontent.com/theaayushstha1/theaayushstha1/output/github-snake.svg" />
+</picture>
+
 </div>
 
 ---
