@@ -155,12 +155,40 @@ Web-based computational theory visualizer with real-time state tracing.
 
 ---
 
-## Achievements
+## Certifications & Achievements
 
-- **Amazon AI/ML HBCU Symposium** — Selected presenter, featured in technical podcast
+<table>
+<tr>
+<td align="center" width="50%">
+
+**AWS Machine Learning University**
+
+*Certificate of Recognition*
+
+Outstanding research contribution at the Student Poster Session - AWS ML Research & Teaching Symposium
+
+`January 2026`
+
+</td>
+<td align="center" width="50%">
+
+**NSF Data Science Program**
+
+*Mini-Bachelor Certificate*
+
+Summer Research Workshop sponsored by the National Science Foundation & 11 Networked Universities
+
+`June 2025`
+
+</td>
+</tr>
+</table>
+
+### Other Achievements
+- **Amazon AI/ML HBCU Symposium** — Selected presenter, featured in [technical podcast](https://youtube.com)
 - **NSF Conference** — Presented Edge-AI robotics research
-- **CodePath** — Completed 18-week Android engineering fellowship
-- **Dean's List** — Morgan State University
+- **CodePath** — Completed 18-week Android engineering fellowship (10 apps built)
+- **Dean's List** — Morgan State University (3.96 GPA)
 
 ---
 
