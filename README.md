@@ -2,7 +2,7 @@
 
 # Aayush Shrestha
 
-[![Typing SVG](https://readme-typing-svg.demolab.com?font=Fira+Code&weight=600&size=22&pause=1000&color=6366F1&center=true&vCenter=true&random=false&width=650&lines=Lead+AI+Agent+Developer+%40+Morgan+State;Full+Stack+Developer+%7C+Mobile+Engineer;800%2B+Users+Served+%7C+10%2B+Apps+Built;AWS+%26+NSF+Research+Presenter)](https://git.io/typing-svg)
+[![Typing SVG](https://readme-typing-svg.demolab.com?font=Fira+Code&weight=600&size=22&pause=1000&color=6366F1&center=true&vCenter=true&random=false&width=650&lines=AI+Agent+Developer+%40+Morgan+State;Full+Stack+Developer+%7C+Mobile+Engineer;800%2B+Users+Served+%7C+10%2B+Apps+Built;AWS+%26+NSF+Research+Presenter)](https://git.io/typing-svg)
 
 [![LinkedIn](https://img.shields.io/badge/LinkedIn-0077B5?style=for-the-badge&logo=linkedin&logoColor=white)](https://linkedin.com/in/aayushshrestha123)
 [![Portfolio](https://img.shields.io/badge/Portfolio-000000?style=for-the-badge&logo=vercel&logoColor=white)](https://theaayushstha.com)
