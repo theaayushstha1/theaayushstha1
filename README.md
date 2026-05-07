@@ -21,7 +21,7 @@ class AayushShrestha:
         self.role = "Lead AI Agent Developer"
         self.company = "Morgan State University CS Lab"
         self.school = "Morgan State University"
-        self.gpa = 3.96
+        self.gpa = 3.97
         self.graduation = "May 2026"
         self.users_served = "800+"
         self.apps_built = "10+"
