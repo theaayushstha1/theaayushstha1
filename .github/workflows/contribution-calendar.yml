@@ -1,6 +1,12 @@
-name: Generate contribution calendar
+name: Generate contribution art
 
 on:
+  push:
+    branches:
+      - main
+    paths:
+      - .github/workflows/contribution-calendar.yml
+      - scripts/generate-contribution-art.mjs
   schedule:
     - cron: "17 7 * * *"
   workflow_dispatch:
@@ -15,21 +21,25 @@ concurrency:
 jobs:
   generate:
     runs-on: ubuntu-latest
-    timeout-minutes: 10
+    timeout-minutes: 5
 
     steps:
-      - name: Generate full-year isometric calendar
-        # Pinned to an immutable lowlighter/metrics commit.
-        uses: lowlighter/metrics@366f8b9dfe3a59656c67d5dcad9950f59c9bc96d
+      - name: Check out the profile source
+        # actions/checkout v7.0.1
+        uses: actions/checkout@3d3c42e5aac5ba805825da76410c181273ba90b1
+
+      - name: Generate animated contribution sculpture
+        env:
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+          GITHUB_USER: ${{ github.repository_owner }}
+        run: node scripts/generate-contribution-art.mjs dist/metrics.plugin.isocalendar.svg
+
+      - name: Publish the generated SVG
+        # peaceiris/actions-gh-pages v4.1.0
+        uses: peaceiris/actions-gh-pages@84c30a85c19949d7eee79c4ff27748b70285e453
         with:
-          token: ${{ secrets.GITHUB_TOKEN }}
-          committer_token: ${{ secrets.GITHUB_TOKEN }}
-          committer_branch: output
-          committer_message: "chore: update contribution calendar"
-          output_action: commit
-          user: theaayushstha1
-          filename: metrics.plugin.isocalendar.svg
-          base: ""
-          plugin_isocalendar: yes
-          plugin_isocalendar_duration: full-year
-          config_timezone: America/New_York
+          github_token: ${{ secrets.GITHUB_TOKEN }}
+          publish_branch: output
+          publish_dir: ./dist
+          force_orphan: true
+          full_commit_message: "chore: update contribution art"
