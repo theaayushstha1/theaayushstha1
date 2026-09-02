@@ -2,7 +2,7 @@
 
 # Aayush Shrestha
 
-Founder @ [Dansa](https://www.dancegotfun.com)
+Founder @ [Coryo](https://www.dancegotfun.com)
 
 [Website](https://theaayushstha.com) · [LinkedIn](https://www.linkedin.com/in/aayushshrestha123) · [X](https://x.com/0xYush) · [Email](mailto:aayushofficial006@gmail.com)
 
