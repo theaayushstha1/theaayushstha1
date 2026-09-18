@@ -1,0 +1,3081 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg xmlns="http://www.w3.org/2000/svg"
+     width="960"
+     height="280"
+     viewBox="-72.2 -28.71 839.6 271.66"
+     preserveAspectRatio="xMidYMid meet"
+     role="img"
+     aria-labelledby="title description">
+  <title id="title">theaayushstha1's contribution rhythm</title>
+  <desc id="description">An animated isometric sculpture built from the last year of GitHub contributions.</desc>
+  <style>
+    :root {
+      color-scheme: light dark;
+    }
+
+    .face {
+      stroke-linejoin: round;
+      stroke-width: 0.55;
+      vector-effect: non-scaling-stroke;
+    }
+
+    .level-0 { stroke: #dce4de; }
+    .level-0 .top { fill: #eef2ef; }
+    .level-0 .left { fill: #e2e8e3; }
+    .level-0 .right { fill: #d7dfd9; }
+    .level-1 { stroke: #93e59f; }
+    .level-1 .top { fill: #b9f7c3; }
+    .level-1 .left { fill: #83db91; }
+    .level-1 .right { fill: #69c979; }
+    .level-2 { stroke: #42da59; }
+    .level-2 .top { fill: #69ee7d; }
+    .level-2 .left { fill: #31cc4b; }
+    .level-2 .right { fill: #22af3b; }
+    .level-3 { stroke: #1fd437; }
+    .level-3 .top { fill: #26ec42; }
+    .level-3 .left { fill: #17bd31; }
+    .level-3 .right { fill: #0f9424; }
+    .level-4 { stroke: #075b18; }
+    .level-4 .top { fill: #0a7a20; }
+    .level-4 .left { fill: #075b18; }
+    .level-4 .right { fill: #044311; }
+
+    .rise {
+      animation: rise 650ms var(--delay) cubic-bezier(0.16, 1, 0.3, 1) both;
+      opacity: 0;
+      transform: translateY(14px);
+    }
+
+    .level-0.rise {
+      animation: base-reveal 450ms 40ms ease-out both;
+      opacity: 0.22;
+      transform: none;
+    }
+
+    .today-ring {
+      animation: today-pulse 3.4s 2s ease-out infinite;
+      fill: none;
+      opacity: 0;
+      stroke: #0a7a20;
+      stroke-width: 1.4;
+      transform-box: fill-box;
+      transform-origin: center;
+      vector-effect: non-scaling-stroke;
+    }
+
+    @keyframes rise {
+      to {
+        opacity: 1;
+        transform: translateY(0);
+      }
+    }
+
+    @keyframes base-reveal {
+      to { opacity: 1; }
+    }
+
+    @keyframes today-pulse {
+      0% { opacity: 0; transform: scale(0.9); }
+      14% { opacity: 0.9; }
+      55%, 100% { opacity: 0; transform: scale(1.8); }
+    }
+
+    @media (prefers-color-scheme: dark) {
+      .level-0 { stroke: #2b312c; }
+      .level-0 .top { fill: #202521; }
+      .level-0 .left { fill: #171b18; }
+      .level-0 .right { fill: #111512; }
+      .level-1 { stroke: #0d6b21; }
+      .level-1 .top { fill: #0a5a1b; }
+      .level-1 .left { fill: #074314; }
+      .level-1 .right { fill: #052f0e; }
+      .level-2 { stroke: #12a62e; }
+      .level-2 .top { fill: #0f9228; }
+      .level-2 .left { fill: #0a6f1e; }
+      .level-2 .right { fill: #075116; }
+      .level-3 { stroke: #1fd437; }
+      .level-3 .top { fill: #19c738; }
+      .level-3 .left { fill: #109a2a; }
+      .level-3 .right { fill: #0a731f; }
+      .level-4 { stroke: #4af263; }
+      .level-4 .top { fill: #26ec42; }
+      .level-4 .left { fill: #1fd437; }
+      .level-4 .right { fill: #0a7a20; }
+      .today-ring { stroke: #28e0d2; }
+    }
+
+    @media (prefers-reduced-motion: reduce) {
+      .rise {
+        animation: none;
+        opacity: 1;
+        transform: none;
+      }
+
+      .today-ring {
+        animation: none;
+        opacity: 0.72;
+      }
+    }
+  </style>
+  
+      <g transform="translate(0 0)">
+        <g class="rise level-0" style="--delay:0.080s">
+          
+          
+          <polygon class="face top" points="0,-4 7,0 0,4 -7,0"/>
+          
+        </g>
+      </g>
+      <g transform="translate(14.2 3.25)">
+        <g class="rise level-0" style="--delay:0.105s">
+          
+          
+          <polygon class="face top" points="0,-4 7,0 0,4 -7,0"/>
+          
+        </g>
+      </g>
+      <g transform="translate(28.4 6.5)">
+        <g class="rise level-1" style="--delay:0.130s">
+          <polygon class="face left" points="-7,-9.21 0,-5.21 0,4 -7,0"/>
+          <polygon class="face right" points="7,-9.21 0,-5.21 0,4 7,0"/>
+          <polygon class="face top" points="0,-13.21 7,-9.21 0,-5.21 -7,-9.21"/>
+          
+        </g>
+      </g>
+      <g transform="translate(-7.2 8.2)">
+        <g class="rise level-0" style="--delay:0.092s">
+          
+          
+          <polygon class="face top" points="0,-4 7,0 0,4 -7,0"/>
+          
+        </g>
+      </g>
+      <g transform="translate(42.6 9.75)">
+        <g class="rise level-0" style="--delay:0.155s">
+          
+          
+          <polygon class="face top" points="0,-4 7,0 0,4 -7,0"/>
+          
+        </g>
+      </g>
+      <g transform="translate(7 11.45)">
+        <g class="rise level-0" style="--delay:0.117s">
+          
+          
+          <polygon class="face top" points="0,-4 7,0 0,4 -7,0"/>
+          
+        </g>
+      </g>
+      <g transform="translate(56.8 13)">
+        <g class="rise level-1" style="--delay:0.180s">
+          <polygon class="face left" points="-7,-7.1 0,-3.1 0,4 -7,0"/>
+          <polygon class="face right" points="7,-7.1 0,-3.1 0,4 7,0"/>
+          <polygon class="face top" points="0,-11.1 7,-7.1 0,-3.1 -7,-7.1"/>
+          
+        </g>
+      </g>
+      <g transform="translate(21.2 14.7)">
+        <g class="rise level-1" style="--delay:0.142s">
+          <polygon class="face left" points="-7,-14.3 0,-10.3 0,4 -7,0"/>
+          <polygon class="face right" points="7,-14.3 0,-10.3 0,4 7,0"/>
+          <polygon class="face top" points="0,-18.3 7,-14.3 0,-10.3 -7,-14.3"/>
+          
+        </g>
+      </g>
+      <g transform="translate(71 16.25)">
+        <g class="rise level-0" style="--delay:0.205s">
+          
+          
+          <polygon class="face top" points="0,-4 7,0 0,4 -7,0"/>
+          
+        </g>
+      </g>
+      <g transform="translate(-14.4 16.4)">
+        <g class="rise level-1" style="--delay:0.104s">
+          <polygon class="face left" points="-7,-7.1 0,-3.1 0,4 -7,0"/>
+          <polygon class="face right" points="7,-7.1 0,-3.1 0,4 7,0"/>
+          <polygon class="face top" points="0,-11.1 7,-7.1 0,-3.1 -7,-7.1"/>
+          
+        </g>
+      </g>
+      <g transform="translate(35.4 17.95)">
+        <g class="rise level-1" style="--delay:0.167s">
+          <polygon class="face left" points="-7,-14.91 0,-10.91 0,4 -7,0"/>
+          <polygon class="face right" points="7,-14.91 0,-10.91 0,4 7,0"/>
+          <polygon class="face top" points="0,-18.91 7,-14.91 0,-10.91 -7,-14.91"/>
+          
+        </g>
+      </g>
+      <g transform="translate(85.2 19.5)">
+        <g class="rise level-0" style="--delay:0.230s">
+          
+          
+          <polygon class="face top" points="0,-4 7,0 0,4 -7,0"/>
+          
+        </g>
+      </g>
+      <g transform="translate(-0.2 19.65)">
+        <g class="rise level-1" style="--delay:0.129s">
+          <polygon class="face left" points="-7,-19.78 0,-15.78 0,4 -7,0"/>
+          <polygon class="face right" points="7,-19.78 0,-15.78 0,4 7,0"/>
+          <polygon class="face top" points="0,-23.78 7,-19.78 0,-15.78 -7,-19.78"/>
+          
+        </g>
+      </g>
+      <g transform="translate(49.6 21.2)">
+        <g class="rise level-0" style="--delay:0.192s">
+          
+          
+          <polygon class="face top" points="0,-4 7,0 0,4 -7,0"/>
+          
+        </g>
+      </g>
+      <g transform="translate(99.4 22.75)">
+        <g class="rise level-0" style="--delay:0.255s">
+          
+          
+          <polygon class="face top" points="0,-4 7,0 0,4 -7,0"/>
+          
+        </g>
+      </g>
+      <g transform="translate(14 22.9)">
+        <g class="rise level-0" style="--delay:0.154s">
+          
+          
+          <polygon class="face top" points="0,-4 7,0 0,4 -7,0"/>
+          
+        </g>
+      </g>
+      <g transform="translate(63.8 24.45)">
+        <g class="rise level-0" style="--delay:0.217s">
+          
+          
+          <polygon class="face top" points="0,-4 7,0 0,4 -7,0"/>
+          
+        </g>
+      </g>
+      <g transform="translate(-21.6 24.6)">
+        <g class="rise level-1" style="--delay:0.116s">
+          <polygon class="face left" points="-7,-9.21 0,-5.21 0,4 -7,0"/>
+          <polygon class="face right" points="7,-9.21 0,-5.21 0,4 7,0"/>
+          <polygon class="face top" points="0,-13.21 7,-9.21 0,-5.21 -7,-9.21"/>
+          
+        </g>
+      </g>
+      <g transform="translate(113.6 26)">
+        <g class="rise level-0" style="--delay:0.280s">
+          
+          
+          <polygon class="face top" points="0,-4 7,0 0,4 -7,0"/>
+          
+        </g>
+      </g>
+      <g transform="translate(28.2 26.15)">
+        <g class="rise level-1" style="--delay:0.179s">
+          <polygon class="face left" points="-7,-10.7 0,-6.7 0,4 -7,0"/>
+          <polygon class="face right" points="7,-10.7 0,-6.7 0,4 7,0"/>
+          <polygon class="face top" points="0,-14.7 7,-10.7 0,-6.7 -7,-10.7"/>
+          
+        </g>
+      </g>
+      <g transform="translate(78 27.7)">
+        <g class="rise level-0" style="--delay:0.242s">
+          
+          
+          <polygon class="face top" points="0,-4 7,0 0,4 -7,0"/>
+          
+        </g>
+      </g>
+      <g transform="translate(-7.4 27.85)">
+        <g class="rise level-1" style="--delay:0.141s">
+          <polygon class="face left" points="-7,-20.62 0,-16.62 0,4 -7,0"/>
+          <polygon class="face right" points="7,-20.62 0,-16.62 0,4 7,0"/>
+          <polygon class="face top" points="0,-24.62 7,-20.62 0,-16.62 -7,-20.62"/>
+          
+        </g>
+      </g>
+      <g transform="translate(127.8 29.25)">
+        <g class="rise level-0" style="--delay:0.305s">
+          
+          
+          <polygon class="face top" points="0,-4 7,0 0,4 -7,0"/>
+          
+        </g>
+      </g>
+      <g transform="translate(42.4 29.4)">
+        <g class="rise level-1" style="--delay:0.204s">
+          <polygon class="face left" points="-7,-9.21 0,-5.21 0,4 -7,0"/>
+          <polygon class="face right" points="7,-9.21 0,-5.21 0,4 7,0"/>
+          <polygon class="face top" points="0,-13.21 7,-9.21 0,-5.21 -7,-9.21"/>
+          
+        </g>
+      </g>
+      <g transform="translate(92.2 30.95)">
+        <g class="rise level-1" style="--delay:0.267s">
+          <polygon class="face left" points="-7,-7.1 0,-3.1 0,4 -7,0"/>
+          <polygon class="face right" points="7,-7.1 0,-3.1 0,4 7,0"/>
+          <polygon class="face top" points="0,-11.1 7,-7.1 0,-3.1 -7,-7.1"/>
+          
+        </g>
+      </g>
+      <g transform="translate(6.8 31.1)">
+        <g class="rise level-0" style="--delay:0.166s">
+          
+          
+          <polygon class="face top" points="0,-4 7,0 0,4 -7,0"/>
+          
+        </g>
+      </g>
+      <g transform="translate(142 32.5)">
+        <g class="rise level-0" style="--delay:0.330s">
+          
+          
+          <polygon class="face top" points="0,-4 7,0 0,4 -7,0"/>
+          
+        </g>
+      </g>
+      <g transform="translate(56.6 32.65)">
+        <g class="rise level-1" style="--delay:0.229s">
+          <polygon class="face left" points="-7,-10.7 0,-6.7 0,4 -7,0"/>
+          <polygon class="face right" points="7,-10.7 0,-6.7 0,4 7,0"/>
+          <polygon class="face top" points="0,-14.7 7,-10.7 0,-6.7 -7,-10.7"/>
+          
+        </g>
+      </g>
+      <g transform="translate(-28.8 32.8)">
+        <g class="rise level-0" style="--delay:0.128s">
+          
+          
+          <polygon class="face top" points="0,-4 7,0 0,4 -7,0"/>
+          
+        </g>
+      </g>
+      <g transform="translate(106.4 34.2)">
+        <g class="rise level-1" style="--delay:0.292s">
+          <polygon class="face left" points="-7,-9.21 0,-5.21 0,4 -7,0"/>
+          <polygon class="face right" points="7,-9.21 0,-5.21 0,4 7,0"/>
+          <polygon class="face top" points="0,-13.21 7,-9.21 0,-5.21 -7,-9.21"/>
+          
+        </g>
+      </g>
+      <g transform="translate(21 34.35)">
+        <g class="rise level-0" style="--delay:0.191s">
+          
+          
+          <polygon class="face top" points="0,-4 7,0 0,4 -7,0"/>
+          
+        </g>
+      </g>
+      <g transform="translate(156.2 35.75)">
+        <g class="rise level-0" style="--delay:0.355s">
+          
+          
+          <polygon class="face top" points="0,-4 7,0 0,4 -7,0"/>
+          
+        </g>
+      </g>
+      <g transform="translate(70.8 35.9)">
+        <g class="rise level-0" style="--delay:0.254s">
+          
+          
+          <polygon class="face top" points="0,-4 7,0 0,4 -7,0"/>
+          
+        </g>
+      </g>
+      <g transform="translate(-14.6 36.05)">
+        <g class="rise level-0" style="--delay:0.153s">
+          
+          
+          <polygon class="face top" points="0,-4 7,0 0,4 -7,0"/>
+          
+        </g>
+      </g>
+      <g transform="translate(120.6 37.45)">
+        <g class="rise level-0" style="--delay:0.317s">
+          
+          
+          <polygon class="face top" points="0,-4 7,0 0,4 -7,0"/>
+          
+        </g>
+      </g>
+      <g transform="translate(35.2 37.6)">
+        <g class="rise level-0" style="--delay:0.216s">
+          
+          
+          <polygon class="face top" points="0,-4 7,0 0,4 -7,0"/>
+          
+        </g>
+      </g>
+      <g transform="translate(170.4 39)">
+        <g class="rise level-0" style="--delay:0.380s">
+          
+          
+          <polygon class="face top" points="0,-4 7,0 0,4 -7,0"/>
+          
+        </g>
+      </g>
+      <g transform="translate(85 39.15)">
+        <g class="rise level-0" style="--delay:0.279s">
+          
+          
+          <polygon class="face top" points="0,-4 7,0 0,4 -7,0"/>
+          
+        </g>
+      </g>
+      <g transform="translate(-0.4 39.3)">
+        <g class="rise level-0" style="--delay:0.178s">
+          
+          
+          <polygon class="face top" points="0,-4 7,0 0,4 -7,0"/>
+          
+        </g>
+      </g>
+      <g transform="translate(134.8 40.7)">
+        <g class="rise level-1" style="--delay:0.342s">
+          <polygon class="face left" points="-7,-7.1 0,-3.1 0,4 -7,0"/>
+          <polygon class="face right" points="7,-7.1 0,-3.1 0,4 7,0"/>
+          <polygon class="face top" points="0,-11.1 7,-7.1 0,-3.1 -7,-7.1"/>
+          
+        </g>
+      </g>
+      <g transform="translate(49.4 40.85)">
+        <g class="rise level-0" style="--delay:0.241s">
+          
+          
+          <polygon class="face top" points="0,-4 7,0 0,4 -7,0"/>
+          
+        </g>
+      </g>
+      <g transform="translate(-36 41)">
+        <g class="rise level-1" style="--delay:0.140s">
+          <polygon class="face left" points="-7,-15.46 0,-11.46 0,4 -7,0"/>
+          <polygon class="face right" points="7,-15.46 0,-11.46 0,4 7,0"/>
+          <polygon class="face top" points="0,-19.46 7,-15.46 0,-11.46 -7,-15.46"/>
+          
+        </g>
+      </g>
+      <g transform="translate(184.6 42.25)">
+        <g class="rise level-0" style="--delay:0.405s">
+          
+          
+          <polygon class="face top" points="0,-4 7,0 0,4 -7,0"/>
+          
+        </g>
+      </g>
+      <g transform="translate(99.2 42.4)">
+        <g class="rise level-0" style="--delay:0.304s">
+          
+          
+          <polygon class="face top" points="0,-4 7,0 0,4 -7,0"/>
+          
+        </g>
+      </g>
+      <g transform="translate(13.8 42.55)">
+        <g class="rise level-0" style="--delay:0.203s">
+          
+          
+          <polygon class="face top" points="0,-4 7,0 0,4 -7,0"/>
+          
+        </g>
+      </g>
+      <g transform="translate(149 43.95)">
+        <g class="rise level-0" style="--delay:0.367s">
+          
+          
+          <polygon class="face top" points="0,-4 7,0 0,4 -7,0"/>
+          
+        </g>
+      </g>
+      <g transform="translate(63.6 44.1)">
+        <g class="rise level-0" style="--delay:0.266s">
+          
+          
+          <polygon class="face top" points="0,-4 7,0 0,4 -7,0"/>
+          
+        </g>
+      </g>
+      <g transform="translate(-21.8 44.25)">
+        <g class="rise level-0" style="--delay:0.165s">
+          
+          
+          <polygon class="face top" points="0,-4 7,0 0,4 -7,0"/>
+          
+        </g>
+      </g>
+      <g transform="translate(198.8 45.5)">
+        <g class="rise level-0" style="--delay:0.430s">
+          
+          
+          <polygon class="face top" points="0,-4 7,0 0,4 -7,0"/>
+          
+        </g>
+      </g>
+      <g transform="translate(113.4 45.65)">
+        <g class="rise level-1" style="--delay:0.329s">
+          <polygon class="face left" points="-7,-9.21 0,-5.21 0,4 -7,0"/>
+          <polygon class="face right" points="7,-9.21 0,-5.21 0,4 7,0"/>
+          <polygon class="face top" points="0,-13.21 7,-9.21 0,-5.21 -7,-9.21"/>
+          
+        </g>
+      </g>
+      <g transform="translate(28 45.8)">
+        <g class="rise level-0" style="--delay:0.228s">
+          
+          
+          <polygon class="face top" points="0,-4 7,0 0,4 -7,0"/>
+          
+        </g>
+      </g>
+      <g transform="translate(163.2 47.2)">
+        <g class="rise level-0" style="--delay:0.392s">
+          
+          
+          <polygon class="face top" points="0,-4 7,0 0,4 -7,0"/>
+          
+        </g>
+      </g>
+      <g transform="translate(77.8 47.35)">
+        <g class="rise level-0" style="--delay:0.291s">
+          
+          
+          <polygon class="face top" points="0,-4 7,0 0,4 -7,0"/>
+          
+        </g>
+      </g>
+      <g transform="translate(-7.6 47.5)">
+        <g class="rise level-0" style="--delay:0.190s">
+          
+          
+          <polygon class="face top" points="0,-4 7,0 0,4 -7,0"/>
+          
+        </g>
+      </g>
+      <g transform="translate(213 48.75)">
+        <g class="rise level-0" style="--delay:0.455s">
+          
+          
+          <polygon class="face top" points="0,-4 7,0 0,4 -7,0"/>
+          
+        </g>
+      </g>
+      <g transform="translate(127.6 48.9)">
+        <g class="rise level-0" style="--delay:0.354s">
+          
+          
+          <polygon class="face top" points="0,-4 7,0 0,4 -7,0"/>
+          
+        </g>
+      </g>
+      <g transform="translate(42.2 49.05)">
+        <g class="rise level-0" style="--delay:0.253s">
+          
+          
+          <polygon class="face top" points="0,-4 7,0 0,4 -7,0"/>
+          
+        </g>
+      </g>
+      <g transform="translate(-43.2 49.2)">
+        <g class="rise level-0" style="--delay:0.152s">
+          
+          
+          <polygon class="face top" points="0,-4 7,0 0,4 -7,0"/>
+          
+        </g>
+      </g>
+      <g transform="translate(177.4 50.45)">
+        <g class="rise level-0" style="--delay:0.417s">
+          
+          
+          <polygon class="face top" points="0,-4 7,0 0,4 -7,0"/>
+          
+        </g>
+      </g>
+      <g transform="translate(92 50.6)">
+        <g class="rise level-0" style="--delay:0.316s">
+          
+          
+          <polygon class="face top" points="0,-4 7,0 0,4 -7,0"/>
+          
+        </g>
+      </g>
+      <g transform="translate(6.6 50.75)">
+        <g class="rise level-0" style="--delay:0.215s">
+          
+          
+          <polygon class="face top" points="0,-4 7,0 0,4 -7,0"/>
+          
+        </g>
+      </g>
+      <g transform="translate(227.2 52)">
+        <g class="rise level-0" style="--delay:0.480s">
+          
+          
+          <polygon class="face top" points="0,-4 7,0 0,4 -7,0"/>
+          
+        </g>
+      </g>
+      <g transform="translate(141.8 52.15)">
+        <g class="rise level-0" style="--delay:0.379s">
+          
+          
+          <polygon class="face top" points="0,-4 7,0 0,4 -7,0"/>
+          
+        </g>
+      </g>
+      <g transform="translate(56.4 52.3)">
+        <g class="rise level-0" style="--delay:0.278s">
+          
+          
+          <polygon class="face top" points="0,-4 7,0 0,4 -7,0"/>
+          
+        </g>
+      </g>
+      <g transform="translate(-29 52.45)">
+        <g class="rise level-1" style="--delay:0.177s">
+          <polygon class="face left" points="-7,-15.95 0,-11.95 0,4 -7,0"/>
+          <polygon class="face right" points="7,-15.95 0,-11.95 0,4 7,0"/>
+          <polygon class="face top" points="0,-19.95 7,-15.95 0,-11.95 -7,-15.95"/>
+          
+        </g>
+      </g>
+      <g transform="translate(191.6 53.7)">
+        <g class="rise level-0" style="--delay:0.442s">
+          
+          
+          <polygon class="face top" points="0,-4 7,0 0,4 -7,0"/>
+          
+        </g>
+      </g>
+      <g transform="translate(106.2 53.85)">
+        <g class="rise level-0" style="--delay:0.341s">
+          
+          
+          <polygon class="face top" points="0,-4 7,0 0,4 -7,0"/>
+          
+        </g>
+      </g>
+      <g transform="translate(20.8 54)">
+        <g class="rise level-1" style="--delay:0.240s">
+          <polygon class="face left" points="-7,-15.46 0,-11.46 0,4 -7,0"/>
+          <polygon class="face right" points="7,-15.46 0,-11.46 0,4 7,0"/>
+          <polygon class="face top" points="0,-19.46 7,-15.46 0,-11.46 -7,-15.46"/>
+          
+        </g>
+      </g>
+      <g transform="translate(241.4 55.25)">
+        <g class="rise level-1" style="--delay:0.505s">
+          <polygon class="face left" points="-7,-16.82 0,-12.82 0,4 -7,0"/>
+          <polygon class="face right" points="7,-16.82 0,-12.82 0,4 7,0"/>
+          <polygon class="face top" points="0,-20.82 7,-16.82 0,-12.82 -7,-16.82"/>
+          
+        </g>
+      </g>
+      <g transform="translate(156 55.4)">
+        <g class="rise level-0" style="--delay:0.404s">
+          
+          
+          <polygon class="face top" points="0,-4 7,0 0,4 -7,0"/>
+          
+        </g>
+      </g>
+      <g transform="translate(70.6 55.55)">
+        <g class="rise level-0" style="--delay:0.303s">
+          
+          
+          <polygon class="face top" points="0,-4 7,0 0,4 -7,0"/>
+          
+        </g>
+      </g>
+      <g transform="translate(-14.8 55.7)">
+        <g class="rise level-0" style="--delay:0.202s">
+          
+          
+          <polygon class="face top" points="0,-4 7,0 0,4 -7,0"/>
+          
+        </g>
+      </g>
+      <g transform="translate(205.8 56.95)">
+        <g class="rise level-1" style="--delay:0.467s">
+          <polygon class="face left" points="-7,-19.06 0,-15.06 0,4 -7,0"/>
+          <polygon class="face right" points="7,-19.06 0,-15.06 0,4 7,0"/>
+          <polygon class="face top" points="0,-23.06 7,-19.06 0,-15.06 -7,-19.06"/>
+          
+        </g>
+      </g>
+      <g transform="translate(120.4 57.1)">
+        <g class="rise level-0" style="--delay:0.366s">
+          
+          
+          <polygon class="face top" points="0,-4 7,0 0,4 -7,0"/>
+          
+        </g>
+      </g>
+      <g transform="translate(35 57.25)">
+        <g class="rise level-1" style="--delay:0.265s">
+          <polygon class="face left" points="-7,-14.91 0,-10.91 0,4 -7,0"/>
+          <polygon class="face right" points="7,-14.91 0,-10.91 0,4 7,0"/>
+          <polygon class="face top" points="0,-18.91 7,-14.91 0,-10.91 -7,-14.91"/>
+          
+        </g>
+      </g>
+      <g transform="translate(255.6 58.5)">
+        <g class="rise level-0" style="--delay:0.530s">
+          
+          
+          <polygon class="face top" points="0,-4 7,0 0,4 -7,0"/>
+          
+        </g>
+      </g>
+      <g transform="translate(170.2 58.65)">
+        <g class="rise level-0" style="--delay:0.429s">
+          
+          
+          <polygon class="face top" points="0,-4 7,0 0,4 -7,0"/>
+          
+        </g>
+      </g>
+      <g transform="translate(84.8 58.8)">
+        <g class="rise level-0" style="--delay:0.328s">
+          
+          
+          <polygon class="face top" points="0,-4 7,0 0,4 -7,0"/>
+          
+        </g>
+      </g>
+      <g transform="translate(-0.6 58.95)">
+        <g class="rise level-0" style="--delay:0.227s">
+          
+          
+          <polygon class="face top" points="0,-4 7,0 0,4 -7,0"/>
+          
+        </g>
+      </g>
+      <g transform="translate(220 60.2)">
+        <g class="rise level-0" style="--delay:0.492s">
+          
+          
+          <polygon class="face top" points="0,-4 7,0 0,4 -7,0"/>
+          
+        </g>
+      </g>
+      <g transform="translate(134.6 60.35)">
+        <g class="rise level-0" style="--delay:0.391s">
+          
+          
+          <polygon class="face top" points="0,-4 7,0 0,4 -7,0"/>
+          
+        </g>
+      </g>
+      <g transform="translate(49.2 60.5)">
+        <g class="rise level-1" style="--delay:0.290s">
+          <polygon class="face left" points="-7,-9.21 0,-5.21 0,4 -7,0"/>
+          <polygon class="face right" points="7,-9.21 0,-5.21 0,4 7,0"/>
+          <polygon class="face top" points="0,-13.21 7,-9.21 0,-5.21 -7,-9.21"/>
+          
+        </g>
+      </g>
+      <g transform="translate(269.8 61.75)">
+        <g class="rise level-1" style="--delay:0.555s">
+          <polygon class="face left" points="-7,-20.01 0,-16.01 0,4 -7,0"/>
+          <polygon class="face right" points="7,-20.01 0,-16.01 0,4 7,0"/>
+          <polygon class="face top" points="0,-24.01 7,-20.01 0,-16.01 -7,-20.01"/>
+          
+        </g>
+      </g>
+      <g transform="translate(184.4 61.9)">
+        <g class="rise level-0" style="--delay:0.454s">
+          
+          
+          <polygon class="face top" points="0,-4 7,0 0,4 -7,0"/>
+          
+        </g>
+      </g>
+      <g transform="translate(99 62.05)">
+        <g class="rise level-0" style="--delay:0.353s">
+          
+          
+          <polygon class="face top" points="0,-4 7,0 0,4 -7,0"/>
+          
+        </g>
+      </g>
+      <g transform="translate(13.6 62.2)">
+        <g class="rise level-0" style="--delay:0.252s">
+          
+          
+          <polygon class="face top" points="0,-4 7,0 0,4 -7,0"/>
+          
+        </g>
+      </g>
+      <g transform="translate(234.2 63.45)">
+        <g class="rise level-0" style="--delay:0.517s">
+          
+          
+          <polygon class="face top" points="0,-4 7,0 0,4 -7,0"/>
+          
+        </g>
+      </g>
+      <g transform="translate(148.8 63.6)">
+        <g class="rise level-1" style="--delay:0.416s">
+          <polygon class="face left" points="-7,-16.41 0,-12.41 0,4 -7,0"/>
+          <polygon class="face right" points="7,-16.41 0,-12.41 0,4 7,0"/>
+          <polygon class="face top" points="0,-20.41 7,-16.41 0,-12.41 -7,-16.41"/>
+          
+        </g>
+      </g>
+      <g transform="translate(63.4 63.75)">
+        <g class="rise level-0" style="--delay:0.315s">
+          
+          
+          <polygon class="face top" points="0,-4 7,0 0,4 -7,0"/>
+          
+        </g>
+      </g>
+      <g transform="translate(284 65)">
+        <g class="rise level-1" style="--delay:0.580s">
+          <polygon class="face left" points="-7,-12.81 0,-8.81 0,4 -7,0"/>
+          <polygon class="face right" points="7,-12.81 0,-8.81 0,4 7,0"/>
+          <polygon class="face top" points="0,-16.81 7,-12.81 0,-8.81 -7,-12.81"/>
+          
+        </g>
+      </g>
+      <g transform="translate(198.6 65.15)">
+        <g class="rise level-1" style="--delay:0.479s">
+          <polygon class="face left" points="-7,-9.21 0,-5.21 0,4 -7,0"/>
+          <polygon class="face right" points="7,-9.21 0,-5.21 0,4 7,0"/>
+          <polygon class="face top" points="0,-13.21 7,-9.21 0,-5.21 -7,-9.21"/>
+          
+        </g>
+      </g>
+      <g transform="translate(113.2 65.3)">
+        <g class="rise level-0" style="--delay:0.378s">
+          
+          
+          <polygon class="face top" points="0,-4 7,0 0,4 -7,0"/>
+          
+        </g>
+      </g>
+      <g transform="translate(27.8 65.45)">
+        <g class="rise level-0" style="--delay:0.277s">
+          
+          
+          <polygon class="face top" points="0,-4 7,0 0,4 -7,0"/>
+          
+        </g>
+      </g>
+      <g transform="translate(248.4 66.7)">
+        <g class="rise level-1" style="--delay:0.542s">
+          <polygon class="face left" points="-7,-10.7 0,-6.7 0,4 -7,0"/>
+          <polygon class="face right" points="7,-10.7 0,-6.7 0,4 7,0"/>
+          <polygon class="face top" points="0,-14.7 7,-10.7 0,-6.7 -7,-10.7"/>
+          
+        </g>
+      </g>
+      <g transform="translate(163 66.85)">
+        <g class="rise level-0" style="--delay:0.441s">
+          
+          
+          <polygon class="face top" points="0,-4 7,0 0,4 -7,0"/>
+          
+        </g>
+      </g>
+      <g transform="translate(77.6 67)">
+        <g class="rise level-1" style="--delay:0.340s">
+          <polygon class="face left" points="-7,-9.21 0,-5.21 0,4 -7,0"/>
+          <polygon class="face right" points="7,-9.21 0,-5.21 0,4 7,0"/>
+          <polygon class="face top" points="0,-13.21 7,-9.21 0,-5.21 -7,-9.21"/>
+          
+        </g>
+      </g>
+      <g transform="translate(298.2 68.25)">
+        <g class="rise level-0" style="--delay:0.605s">
+          
+          
+          <polygon class="face top" points="0,-4 7,0 0,4 -7,0"/>
+          
+        </g>
+      </g>
+      <g transform="translate(212.8 68.4)">
+        <g class="rise level-1" style="--delay:0.504s">
+          <polygon class="face left" points="-7,-9.21 0,-5.21 0,4 -7,0"/>
+          <polygon class="face right" points="7,-9.21 0,-5.21 0,4 7,0"/>
+          <polygon class="face top" points="0,-13.21 7,-9.21 0,-5.21 -7,-9.21"/>
+          
+        </g>
+      </g>
+      <g transform="translate(127.4 68.55)">
+        <g class="rise level-0" style="--delay:0.403s">
+          
+          
+          <polygon class="face top" points="0,-4 7,0 0,4 -7,0"/>
+          
+        </g>
+      </g>
+      <g transform="translate(42 68.7)">
+        <g class="rise level-0" style="--delay:0.302s">
+          
+          
+          <polygon class="face top" points="0,-4 7,0 0,4 -7,0"/>
+          
+        </g>
+      </g>
+      <g transform="translate(262.6 69.95)">
+        <g class="rise level-1" style="--delay:0.567s">
+          <polygon class="face left" points="-7,-16.82 0,-12.82 0,4 -7,0"/>
+          <polygon class="face right" points="7,-16.82 0,-12.82 0,4 7,0"/>
+          <polygon class="face top" points="0,-20.82 7,-16.82 0,-12.82 -7,-16.82"/>
+          
+        </g>
+      </g>
+      <g transform="translate(177.2 70.1)">
+        <g class="rise level-0" style="--delay:0.466s">
+          
+          
+          <polygon class="face top" points="0,-4 7,0 0,4 -7,0"/>
+          
+        </g>
+      </g>
+      <g transform="translate(91.8 70.25)">
+        <g class="rise level-1" style="--delay:0.365s">
+          <polygon class="face left" points="-7,-12.81 0,-8.81 0,4 -7,0"/>
+          <polygon class="face right" points="7,-12.81 0,-8.81 0,4 7,0"/>
+          <polygon class="face top" points="0,-16.81 7,-12.81 0,-8.81 -7,-12.81"/>
+          
+        </g>
+      </g>
+      <g transform="translate(312.4 71.5)">
+        <g class="rise level-1" style="--delay:0.630s">
+          <polygon class="face left" points="-7,-7.1 0,-3.1 0,4 -7,0"/>
+          <polygon class="face right" points="7,-7.1 0,-3.1 0,4 7,0"/>
+          <polygon class="face top" points="0,-11.1 7,-7.1 0,-3.1 -7,-7.1"/>
+          
+        </g>
+      </g>
+      <g transform="translate(227 71.65)">
+        <g class="rise level-1" style="--delay:0.529s">
+          <polygon class="face left" points="-7,-9.21 0,-5.21 0,4 -7,0"/>
+          <polygon class="face right" points="7,-9.21 0,-5.21 0,4 7,0"/>
+          <polygon class="face top" points="0,-13.21 7,-9.21 0,-5.21 -7,-9.21"/>
+          
+        </g>
+      </g>
+      <g transform="translate(141.6 71.8)">
+        <g class="rise level-0" style="--delay:0.428s">
+          
+          
+          <polygon class="face top" points="0,-4 7,0 0,4 -7,0"/>
+          
+        </g>
+      </g>
+      <g transform="translate(56.2 71.95)">
+        <g class="rise level-0" style="--delay:0.327s">
+          
+          
+          <polygon class="face top" points="0,-4 7,0 0,4 -7,0"/>
+          
+        </g>
+      </g>
+      <g transform="translate(276.8 73.2)">
+        <g class="rise level-1" style="--delay:0.592s">
+          <polygon class="face left" points="-7,-12.81 0,-8.81 0,4 -7,0"/>
+          <polygon class="face right" points="7,-12.81 0,-8.81 0,4 7,0"/>
+          <polygon class="face top" points="0,-16.81 7,-12.81 0,-8.81 -7,-12.81"/>
+          
+        </g>
+      </g>
+      <g transform="translate(191.4 73.35)">
+        <g class="rise level-1" style="--delay:0.491s">
+          <polygon class="face left" points="-7,-10.7 0,-6.7 0,4 -7,0"/>
+          <polygon class="face right" points="7,-10.7 0,-6.7 0,4 7,0"/>
+          <polygon class="face top" points="0,-14.7 7,-10.7 0,-6.7 -7,-10.7"/>
+          
+        </g>
+      </g>
+      <g transform="translate(106 73.5)">
+        <g class="rise level-0" style="--delay:0.390s">
+          
+          
+          <polygon class="face top" points="0,-4 7,0 0,4 -7,0"/>
+          
+        </g>
+      </g>
+      <g transform="translate(326.6 74.75)">
+        <g class="rise level-1" style="--delay:0.655s">
+          <polygon class="face left" points="-7,-12.81 0,-8.81 0,4 -7,0"/>
+          <polygon class="face right" points="7,-12.81 0,-8.81 0,4 7,0"/>
+          <polygon class="face top" points="0,-16.81 7,-12.81 0,-8.81 -7,-12.81"/>
+          
+        </g>
+      </g>
+      <g transform="translate(241.2 74.9)">
+        <g class="rise level-1" style="--delay:0.554s">
+          <polygon class="face left" points="-7,-12.81 0,-8.81 0,4 -7,0"/>
+          <polygon class="face right" points="7,-12.81 0,-8.81 0,4 7,0"/>
+          <polygon class="face top" points="0,-16.81 7,-12.81 0,-8.81 -7,-12.81"/>
+          
+        </g>
+      </g>
+      <g transform="translate(155.8 75.05)">
+        <g class="rise level-0" style="--delay:0.453s">
+          
+          
+          <polygon class="face top" points="0,-4 7,0 0,4 -7,0"/>
+          
+        </g>
+      </g>
+      <g transform="translate(70.4 75.2)">
+        <g class="rise level-0" style="--delay:0.352s">
+          
+          
+          <polygon class="face top" points="0,-4 7,0 0,4 -7,0"/>
+          
+        </g>
+      </g>
+      <g transform="translate(291 76.45)">
+        <g class="rise level-1" style="--delay:0.617s">
+          <polygon class="face left" points="-7,-14.3 0,-10.3 0,4 -7,0"/>
+          <polygon class="face right" points="7,-14.3 0,-10.3 0,4 7,0"/>
+          <polygon class="face top" points="0,-18.3 7,-14.3 0,-10.3 -7,-14.3"/>
+          
+        </g>
+      </g>
+      <g transform="translate(205.6 76.6)">
+        <g class="rise level-0" style="--delay:0.516s">
+          
+          
+          <polygon class="face top" points="0,-4 7,0 0,4 -7,0"/>
+          
+        </g>
+      </g>
+      <g transform="translate(120.2 76.75)">
+        <g class="rise level-1" style="--delay:0.415s">
+          <polygon class="face left" points="-7,-7.1 0,-3.1 0,4 -7,0"/>
+          <polygon class="face right" points="7,-7.1 0,-3.1 0,4 7,0"/>
+          <polygon class="face top" points="0,-11.1 7,-7.1 0,-3.1 -7,-7.1"/>
+          
+        </g>
+      </g>
+      <g transform="translate(340.8 78)">
+        <g class="rise level-0" style="--delay:0.680s">
+          
+          
+          <polygon class="face top" points="0,-4 7,0 0,4 -7,0"/>
+          
+        </g>
+      </g>
+      <g transform="translate(255.4 78.15)">
+        <g class="rise level-1" style="--delay:0.579s">
+          <polygon class="face left" points="-7,-16.82 0,-12.82 0,4 -7,0"/>
+          <polygon class="face right" points="7,-16.82 0,-12.82 0,4 7,0"/>
+          <polygon class="face top" points="0,-20.82 7,-16.82 0,-12.82 -7,-16.82"/>
+          
+        </g>
+      </g>
+      <g transform="translate(170 78.3)">
+        <g class="rise level-0" style="--delay:0.478s">
+          
+          
+          <polygon class="face top" points="0,-4 7,0 0,4 -7,0"/>
+          
+        </g>
+      </g>
+      <g transform="translate(84.6 78.45)">
+        <g class="rise level-1" style="--delay:0.377s">
+          <polygon class="face left" points="-7,-7.1 0,-3.1 0,4 -7,0"/>
+          <polygon class="face right" points="7,-7.1 0,-3.1 0,4 7,0"/>
+          <polygon class="face top" points="0,-11.1 7,-7.1 0,-3.1 -7,-7.1"/>
+          
+        </g>
+      </g>
+      <g transform="translate(305.2 79.7)">
+        <g class="rise level-0" style="--delay:0.642s">
+          
+          
+          <polygon class="face top" points="0,-4 7,0 0,4 -7,0"/>
+          
+        </g>
+      </g>
+      <g transform="translate(219.8 79.85)">
+        <g class="rise level-0" style="--delay:0.541s">
+          
+          
+          <polygon class="face top" points="0,-4 7,0 0,4 -7,0"/>
+          
+        </g>
+      </g>
+      <g transform="translate(134.4 80)">
+        <g class="rise level-1" style="--delay:0.440s">
+          <polygon class="face left" points="-7,-14.3 0,-10.3 0,4 -7,0"/>
+          <polygon class="face right" points="7,-14.3 0,-10.3 0,4 7,0"/>
+          <polygon class="face top" points="0,-18.3 7,-14.3 0,-10.3 -7,-14.3"/>
+          
+        </g>
+      </g>
+      <g transform="translate(355 81.25)">
+        <g class="rise level-0" style="--delay:0.705s">
+          
+          
+          <polygon class="face top" points="0,-4 7,0 0,4 -7,0"/>
+          
+        </g>
+      </g>
+      <g transform="translate(269.6 81.4)">
+        <g class="rise level-0" style="--delay:0.604s">
+          
+          
+          <polygon class="face top" points="0,-4 7,0 0,4 -7,0"/>
+          
+        </g>
+      </g>
+      <g transform="translate(184.2 81.55)">
+        <g class="rise level-1" style="--delay:0.503s">
+          <polygon class="face left" points="-7,-7.1 0,-3.1 0,4 -7,0"/>
+          <polygon class="face right" points="7,-7.1 0,-3.1 0,4 7,0"/>
+          <polygon class="face top" points="0,-11.1 7,-7.1 0,-3.1 -7,-7.1"/>
+          
+        </g>
+      </g>
+      <g transform="translate(98.8 81.7)">
+        <g class="rise level-0" style="--delay:0.402s">
+          
+          
+          <polygon class="face top" points="0,-4 7,0 0,4 -7,0"/>
+          
+        </g>
+      </g>
+      <g transform="translate(319.4 82.95)">
+        <g class="rise level-0" style="--delay:0.667s">
+          
+          
+          <polygon class="face top" points="0,-4 7,0 0,4 -7,0"/>
+          
+        </g>
+      </g>
+      <g transform="translate(234 83.1)">
+        <g class="rise level-1" style="--delay:0.566s">
+          <polygon class="face left" points="-7,-9.21 0,-5.21 0,4 -7,0"/>
+          <polygon class="face right" points="7,-9.21 0,-5.21 0,4 7,0"/>
+          <polygon class="face top" points="0,-13.21 7,-9.21 0,-5.21 -7,-9.21"/>
+          
+        </g>
+      </g>
+      <g transform="translate(148.6 83.25)">
+        <g class="rise level-0" style="--delay:0.465s">
+          
+          
+          <polygon class="face top" points="0,-4 7,0 0,4 -7,0"/>
+          
+        </g>
+      </g>
+      <g transform="translate(369.2 84.5)">
+        <g class="rise level-0" style="--delay:0.730s">
+          
+          
+          <polygon class="face top" points="0,-4 7,0 0,4 -7,0"/>
+          
+        </g>
+      </g>
+      <g transform="translate(283.8 84.65)">
+        <g class="rise level-0" style="--delay:0.629s">
+          
+          
+          <polygon class="face top" points="0,-4 7,0 0,4 -7,0"/>
+          
+        </g>
+      </g>
+      <g transform="translate(198.4 84.8)">
+        <g class="rise level-1" style="--delay:0.528s">
+          <polygon class="face left" points="-7,-9.21 0,-5.21 0,4 -7,0"/>
+          <polygon class="face right" points="7,-9.21 0,-5.21 0,4 7,0"/>
+          <polygon class="face top" points="0,-13.21 7,-9.21 0,-5.21 -7,-9.21"/>
+          
+        </g>
+      </g>
+      <g transform="translate(113 84.95)">
+        <g class="rise level-0" style="--delay:0.427s">
+          
+          
+          <polygon class="face top" points="0,-4 7,0 0,4 -7,0"/>
+          
+        </g>
+      </g>
+      <g transform="translate(333.6 86.2)">
+        <g class="rise level-0" style="--delay:0.692s">
+          
+          
+          <polygon class="face top" points="0,-4 7,0 0,4 -7,0"/>
+          
+        </g>
+      </g>
+      <g transform="translate(248.2 86.35)">
+        <g class="rise level-1" style="--delay:0.591s">
+          <polygon class="face left" points="-7,-7.1 0,-3.1 0,4 -7,0"/>
+          <polygon class="face right" points="7,-7.1 0,-3.1 0,4 7,0"/>
+          <polygon class="face top" points="0,-11.1 7,-7.1 0,-3.1 -7,-7.1"/>
+          
+        </g>
+      </g>
+      <g transform="translate(162.8 86.5)">
+        <g class="rise level-0" style="--delay:0.490s">
+          
+          
+          <polygon class="face top" points="0,-4 7,0 0,4 -7,0"/>
+          
+        </g>
+      </g>
+      <g transform="translate(383.4 87.75)">
+        <g class="rise level-1" style="--delay:0.755s">
+          <polygon class="face left" points="-7,-15.95 0,-11.95 0,4 -7,0"/>
+          <polygon class="face right" points="7,-15.95 0,-11.95 0,4 7,0"/>
+          <polygon class="face top" points="0,-19.95 7,-15.95 0,-11.95 -7,-15.95"/>
+          
+        </g>
+      </g>
+      <g transform="translate(298 87.9)">
+        <g class="rise level-0" style="--delay:0.654s">
+          
+          
+          <polygon class="face top" points="0,-4 7,0 0,4 -7,0"/>
+          
+        </g>
+      </g>
+      <g transform="translate(212.6 88.05)">
+        <g class="rise level-0" style="--delay:0.553s">
+          
+          
+          <polygon class="face top" points="0,-4 7,0 0,4 -7,0"/>
+          
+        </g>
+      </g>
+      <g transform="translate(127.2 88.2)">
+        <g class="rise level-0" style="--delay:0.452s">
+          
+          
+          <polygon class="face top" points="0,-4 7,0 0,4 -7,0"/>
+          
+        </g>
+      </g>
+      <g transform="translate(347.8 89.45)">
+        <g class="rise level-1" style="--delay:0.717s">
+          <polygon class="face left" points="-7,-9.21 0,-5.21 0,4 -7,0"/>
+          <polygon class="face right" points="7,-9.21 0,-5.21 0,4 7,0"/>
+          <polygon class="face top" points="0,-13.21 7,-9.21 0,-5.21 -7,-9.21"/>
+          
+        </g>
+      </g>
+      <g transform="translate(262.4 89.6)">
+        <g class="rise level-0" style="--delay:0.616s">
+          
+          
+          <polygon class="face top" points="0,-4 7,0 0,4 -7,0"/>
+          
+        </g>
+      </g>
+      <g transform="translate(177 89.75)">
+        <g class="rise level-0" style="--delay:0.515s">
+          
+          
+          <polygon class="face top" points="0,-4 7,0 0,4 -7,0"/>
+          
+        </g>
+      </g>
+      <g transform="translate(397.6 91)">
+        <g class="rise level-1" style="--delay:0.780s">
+          <polygon class="face left" points="-7,-10.7 0,-6.7 0,4 -7,0"/>
+          <polygon class="face right" points="7,-10.7 0,-6.7 0,4 7,0"/>
+          <polygon class="face top" points="0,-14.7 7,-10.7 0,-6.7 -7,-10.7"/>
+          
+        </g>
+      </g>
+      <g transform="translate(312.2 91.15)">
+        <g class="rise level-1" style="--delay:0.679s">
+          <polygon class="face left" points="-7,-9.21 0,-5.21 0,4 -7,0"/>
+          <polygon class="face right" points="7,-9.21 0,-5.21 0,4 7,0"/>
+          <polygon class="face top" points="0,-13.21 7,-9.21 0,-5.21 -7,-9.21"/>
+          
+        </g>
+      </g>
+      <g transform="translate(226.8 91.3)">
+        <g class="rise level-0" style="--delay:0.578s">
+          
+          
+          <polygon class="face top" points="0,-4 7,0 0,4 -7,0"/>
+          
+        </g>
+      </g>
+      <g transform="translate(141.4 91.45)">
+        <g class="rise level-0" style="--delay:0.477s">
+          
+          
+          <polygon class="face top" points="0,-4 7,0 0,4 -7,0"/>
+          
+        </g>
+      </g>
+      <g transform="translate(362 92.7)">
+        <g class="rise level-0" style="--delay:0.742s">
+          
+          
+          <polygon class="face top" points="0,-4 7,0 0,4 -7,0"/>
+          
+        </g>
+      </g>
+      <g transform="translate(276.6 92.85)">
+        <g class="rise level-0" style="--delay:0.641s">
+          
+          
+          <polygon class="face top" points="0,-4 7,0 0,4 -7,0"/>
+          
+        </g>
+      </g>
+      <g transform="translate(191.2 93)">
+        <g class="rise level-1" style="--delay:0.540s">
+          <polygon class="face left" points="-7,-18.51 0,-14.51 0,4 -7,0"/>
+          <polygon class="face right" points="7,-18.51 0,-14.51 0,4 7,0"/>
+          <polygon class="face top" points="0,-22.51 7,-18.51 0,-14.51 -7,-18.51"/>
+          
+        </g>
+      </g>
+      <g transform="translate(411.8 94.25)">
+        <g class="rise level-1" style="--delay:0.805s">
+          <polygon class="face left" points="-7,-20.42 0,-16.42 0,4 -7,0"/>
+          <polygon class="face right" points="7,-20.42 0,-16.42 0,4 7,0"/>
+          <polygon class="face top" points="0,-24.42 7,-20.42 0,-16.42 -7,-20.42"/>
+          
+        </g>
+      </g>
+      <g transform="translate(326.4 94.4)">
+        <g class="rise level-0" style="--delay:0.704s">
+          
+          
+          <polygon class="face top" points="0,-4 7,0 0,4 -7,0"/>
+          
+        </g>
+      </g>
+      <g transform="translate(241 94.55)">
+        <g class="rise level-1" style="--delay:0.603s">
+          <polygon class="face left" points="-7,-10.7 0,-6.7 0,4 -7,0"/>
+          <polygon class="face right" points="7,-10.7 0,-6.7 0,4 7,0"/>
+          <polygon class="face top" points="0,-14.7 7,-10.7 0,-6.7 -7,-10.7"/>
+          
+        </g>
+      </g>
+      <g transform="translate(155.6 94.7)">
+        <g class="rise level-0" style="--delay:0.502s">
+          
+          
+          <polygon class="face top" points="0,-4 7,0 0,4 -7,0"/>
+          
+        </g>
+      </g>
+      <g transform="translate(376.2 95.95)">
+        <g class="rise level-1" style="--delay:0.767s">
+          <polygon class="face left" points="-7,-12.81 0,-8.81 0,4 -7,0"/>
+          <polygon class="face right" points="7,-12.81 0,-8.81 0,4 7,0"/>
+          <polygon class="face top" points="0,-16.81 7,-12.81 0,-8.81 -7,-12.81"/>
+          
+        </g>
+      </g>
+      <g transform="translate(290.8 96.1)">
+        <g class="rise level-0" style="--delay:0.666s">
+          
+          
+          <polygon class="face top" points="0,-4 7,0 0,4 -7,0"/>
+          
+        </g>
+      </g>
+      <g transform="translate(205.4 96.25)">
+        <g class="rise level-0" style="--delay:0.565s">
+          
+          
+          <polygon class="face top" points="0,-4 7,0 0,4 -7,0"/>
+          
+        </g>
+      </g>
+      <g transform="translate(426 97.5)">
+        <g class="rise level-1" style="--delay:0.830s">
+          <polygon class="face left" points="-7,-12.81 0,-8.81 0,4 -7,0"/>
+          <polygon class="face right" points="7,-12.81 0,-8.81 0,4 7,0"/>
+          <polygon class="face top" points="0,-16.81 7,-12.81 0,-8.81 -7,-12.81"/>
+          
+        </g>
+      </g>
+      <g transform="translate(340.6 97.65)">
+        <g class="rise level-0" style="--delay:0.729s">
+          
+          
+          <polygon class="face top" points="0,-4 7,0 0,4 -7,0"/>
+          
+        </g>
+      </g>
+      <g transform="translate(255.2 97.8)">
+        <g class="rise level-0" style="--delay:0.628s">
+          
+          
+          <polygon class="face top" points="0,-4 7,0 0,4 -7,0"/>
+          
+        </g>
+      </g>
+      <g transform="translate(169.8 97.95)">
+        <g class="rise level-0" style="--delay:0.527s">
+          
+          
+          <polygon class="face top" points="0,-4 7,0 0,4 -7,0"/>
+          
+        </g>
+      </g>
+      <g transform="translate(390.4 99.2)">
+        <g class="rise level-1" style="--delay:0.792s">
+          <polygon class="face left" points="-7,-10.7 0,-6.7 0,4 -7,0"/>
+          <polygon class="face right" points="7,-10.7 0,-6.7 0,4 7,0"/>
+          <polygon class="face top" points="0,-14.7 7,-10.7 0,-6.7 -7,-10.7"/>
+          
+        </g>
+      </g>
+      <g transform="translate(305 99.35)">
+        <g class="rise level-1" style="--delay:0.691s">
+          <polygon class="face left" points="-7,-7.1 0,-3.1 0,4 -7,0"/>
+          <polygon class="face right" points="7,-7.1 0,-3.1 0,4 7,0"/>
+          <polygon class="face top" points="0,-11.1 7,-7.1 0,-3.1 -7,-7.1"/>
+          
+        </g>
+      </g>
+      <g transform="translate(219.6 99.5)">
+        <g class="rise level-0" style="--delay:0.590s">
+          
+          
+          <polygon class="face top" points="0,-4 7,0 0,4 -7,0"/>
+          
+        </g>
+      </g>
+      <g transform="translate(440.2 100.75)">
+        <g class="rise level-0" style="--delay:0.855s">
+          
+          
+          <polygon class="face top" points="0,-4 7,0 0,4 -7,0"/>
+          
+        </g>
+      </g>
+      <g transform="translate(354.8 100.9)">
+        <g class="rise level-1" style="--delay:0.754s">
+          <polygon class="face left" points="-7,-9.21 0,-5.21 0,4 -7,0"/>
+          <polygon class="face right" points="7,-9.21 0,-5.21 0,4 7,0"/>
+          <polygon class="face top" points="0,-13.21 7,-9.21 0,-5.21 -7,-9.21"/>
+          
+        </g>
+      </g>
+      <g transform="translate(269.4 101.05)">
+        <g class="rise level-0" style="--delay:0.653s">
+          
+          
+          <polygon class="face top" points="0,-4 7,0 0,4 -7,0"/>
+          
+        </g>
+      </g>
+      <g transform="translate(184 101.2)">
+        <g class="rise level-1" style="--delay:0.552s">
+          <polygon class="face left" points="-7,-9.21 0,-5.21 0,4 -7,0"/>
+          <polygon class="face right" points="7,-9.21 0,-5.21 0,4 7,0"/>
+          <polygon class="face top" points="0,-13.21 7,-9.21 0,-5.21 -7,-9.21"/>
+          
+        </g>
+      </g>
+      <g transform="translate(404.6 102.45)">
+        <g class="rise level-1" style="--delay:0.817s">
+          <polygon class="face left" points="-7,-15.95 0,-11.95 0,4 -7,0"/>
+          <polygon class="face right" points="7,-15.95 0,-11.95 0,4 7,0"/>
+          <polygon class="face top" points="0,-19.95 7,-15.95 0,-11.95 -7,-15.95"/>
+          
+        </g>
+      </g>
+      <g transform="translate(319.2 102.6)">
+        <g class="rise level-0" style="--delay:0.716s">
+          
+          
+          <polygon class="face top" points="0,-4 7,0 0,4 -7,0"/>
+          
+        </g>
+      </g>
+      <g transform="translate(233.8 102.75)">
+        <g class="rise level-1" style="--delay:0.615s">
+          <polygon class="face left" points="-7,-23.15 0,-19.15 0,4 -7,0"/>
+          <polygon class="face right" points="7,-23.15 0,-19.15 0,4 7,0"/>
+          <polygon class="face top" points="0,-27.15 7,-23.15 0,-19.15 -7,-23.15"/>
+          
+        </g>
+      </g>
+      <g transform="translate(454.4 104)">
+        <g class="rise level-1" style="--delay:0.880s">
+          <polygon class="face left" points="-7,-13.61 0,-9.61 0,4 -7,0"/>
+          <polygon class="face right" points="7,-13.61 0,-9.61 0,4 7,0"/>
+          <polygon class="face top" points="0,-17.61 7,-13.61 0,-9.61 -7,-13.61"/>
+          
+        </g>
+      </g>
+      <g transform="translate(369 104.15)">
+        <g class="rise level-1" style="--delay:0.779s">
+          <polygon class="face left" points="-7,-9.21 0,-5.21 0,4 -7,0"/>
+          <polygon class="face right" points="7,-9.21 0,-5.21 0,4 7,0"/>
+          <polygon class="face top" points="0,-13.21 7,-9.21 0,-5.21 -7,-9.21"/>
+          
+        </g>
+      </g>
+      <g transform="translate(283.6 104.3)">
+        <g class="rise level-1" style="--delay:0.678s">
+          <polygon class="face left" points="-7,-10.7 0,-6.7 0,4 -7,0"/>
+          <polygon class="face right" points="7,-10.7 0,-6.7 0,4 7,0"/>
+          <polygon class="face top" points="0,-14.7 7,-10.7 0,-6.7 -7,-10.7"/>
+          
+        </g>
+      </g>
+      <g transform="translate(198.2 104.45)">
+        <g class="rise level-0" style="--delay:0.577s">
+          
+          
+          <polygon class="face top" points="0,-4 7,0 0,4 -7,0"/>
+          
+        </g>
+      </g>
+      <g transform="translate(418.8 105.7)">
+        <g class="rise level-1" style="--delay:0.842s">
+          <polygon class="face left" points="-7,-19.78 0,-15.78 0,4 -7,0"/>
+          <polygon class="face right" points="7,-19.78 0,-15.78 0,4 7,0"/>
+          <polygon class="face top" points="0,-23.78 7,-19.78 0,-15.78 -7,-19.78"/>
+          
+        </g>
+      </g>
+      <g transform="translate(333.4 105.85)">
+        <g class="rise level-1" style="--delay:0.741s">
+          <polygon class="face left" points="-7,-7.1 0,-3.1 0,4 -7,0"/>
+          <polygon class="face right" points="7,-7.1 0,-3.1 0,4 7,0"/>
+          <polygon class="face top" points="0,-11.1 7,-7.1 0,-3.1 -7,-7.1"/>
+          
+        </g>
+      </g>
+      <g transform="translate(248 106)">
+        <g class="rise level-0" style="--delay:0.640s">
+          
+          
+          <polygon class="face top" points="0,-4 7,0 0,4 -7,0"/>
+          
+        </g>
+      </g>
+      <g transform="translate(468.6 107.25)">
+        <g class="rise level-1" style="--delay:0.905s">
+          <polygon class="face left" points="-7,-10.7 0,-6.7 0,4 -7,0"/>
+          <polygon class="face right" points="7,-10.7 0,-6.7 0,4 7,0"/>
+          <polygon class="face top" points="0,-14.7 7,-10.7 0,-6.7 -7,-10.7"/>
+          
+        </g>
+      </g>
+      <g transform="translate(383.2 107.4)">
+        <g class="rise level-1" style="--delay:0.804s">
+          <polygon class="face left" points="-7,-13.61 0,-9.61 0,4 -7,0"/>
+          <polygon class="face right" points="7,-13.61 0,-9.61 0,4 7,0"/>
+          <polygon class="face top" points="0,-17.61 7,-13.61 0,-9.61 -7,-13.61"/>
+          
+        </g>
+      </g>
+      <g transform="translate(297.8 107.55)">
+        <g class="rise level-1" style="--delay:0.703s">
+          <polygon class="face left" points="-7,-10.7 0,-6.7 0,4 -7,0"/>
+          <polygon class="face right" points="7,-10.7 0,-6.7 0,4 7,0"/>
+          <polygon class="face top" points="0,-14.7 7,-10.7 0,-6.7 -7,-10.7"/>
+          
+        </g>
+      </g>
+      <g transform="translate(212.4 107.7)">
+        <g class="rise level-1" style="--delay:0.602s">
+          <polygon class="face left" points="-7,-16.41 0,-12.41 0,4 -7,0"/>
+          <polygon class="face right" points="7,-16.41 0,-12.41 0,4 7,0"/>
+          <polygon class="face top" points="0,-20.41 7,-16.41 0,-12.41 -7,-16.41"/>
+          
+        </g>
+      </g>
+      <g transform="translate(433 108.95)">
+        <g class="rise level-0" style="--delay:0.867s">
+          
+          
+          <polygon class="face top" points="0,-4 7,0 0,4 -7,0"/>
+          
+        </g>
+      </g>
+      <g transform="translate(347.6 109.1)">
+        <g class="rise level-1" style="--delay:0.766s">
+          <polygon class="face left" points="-7,-7.1 0,-3.1 0,4 -7,0"/>
+          <polygon class="face right" points="7,-7.1 0,-3.1 0,4 7,0"/>
+          <polygon class="face top" points="0,-11.1 7,-7.1 0,-3.1 -7,-7.1"/>
+          
+        </g>
+      </g>
+      <g transform="translate(262.2 109.25)">
+        <g class="rise level-0" style="--delay:0.665s">
+          
+          
+          <polygon class="face top" points="0,-4 7,0 0,4 -7,0"/>
+          
+        </g>
+      </g>
+      <g transform="translate(482.8 110.5)">
+        <g class="rise level-1" style="--delay:0.930s">
+          <polygon class="face left" points="-7,-16.82 0,-12.82 0,4 -7,0"/>
+          <polygon class="face right" points="7,-16.82 0,-12.82 0,4 7,0"/>
+          <polygon class="face top" points="0,-20.82 7,-16.82 0,-12.82 -7,-16.82"/>
+          
+        </g>
+      </g>
+      <g transform="translate(397.4 110.65)">
+        <g class="rise level-1" style="--delay:0.829s">
+          <polygon class="face left" points="-7,-11.86 0,-7.86 0,4 -7,0"/>
+          <polygon class="face right" points="7,-11.86 0,-7.86 0,4 7,0"/>
+          <polygon class="face top" points="0,-15.86 7,-11.86 0,-7.86 -7,-11.86"/>
+          
+        </g>
+      </g>
+      <g transform="translate(312 110.8)">
+        <g class="rise level-0" style="--delay:0.728s">
+          
+          
+          <polygon class="face top" points="0,-4 7,0 0,4 -7,0"/>
+          
+        </g>
+      </g>
+      <g transform="translate(226.6 110.95)">
+        <g class="rise level-0" style="--delay:0.627s">
+          
+          
+          <polygon class="face top" points="0,-4 7,0 0,4 -7,0"/>
+          
+        </g>
+      </g>
+      <g transform="translate(447.2 112.2)">
+        <g class="rise level-1" style="--delay:0.892s">
+          <polygon class="face left" points="-7,-15.95 0,-11.95 0,4 -7,0"/>
+          <polygon class="face right" points="7,-15.95 0,-11.95 0,4 7,0"/>
+          <polygon class="face top" points="0,-19.95 7,-15.95 0,-11.95 -7,-15.95"/>
+          
+        </g>
+      </g>
+      <g transform="translate(361.8 112.35)">
+        <g class="rise level-1" style="--delay:0.791s">
+          <polygon class="face left" points="-7,-10.7 0,-6.7 0,4 -7,0"/>
+          <polygon class="face right" points="7,-10.7 0,-6.7 0,4 7,0"/>
+          <polygon class="face top" points="0,-14.7 7,-10.7 0,-6.7 -7,-10.7"/>
+          
+        </g>
+      </g>
+      <g transform="translate(276.4 112.5)">
+        <g class="rise level-1" style="--delay:0.690s">
+          <polygon class="face left" points="-7,-14.3 0,-10.3 0,4 -7,0"/>
+          <polygon class="face right" points="7,-14.3 0,-10.3 0,4 7,0"/>
+          <polygon class="face top" points="0,-18.3 7,-14.3 0,-10.3 -7,-14.3"/>
+          
+        </g>
+      </g>
+      <g transform="translate(497 113.75)">
+        <g class="rise level-1" style="--delay:0.955s">
+          <polygon class="face left" points="-7,-7.1 0,-3.1 0,4 -7,0"/>
+          <polygon class="face right" points="7,-7.1 0,-3.1 0,4 7,0"/>
+          <polygon class="face top" points="0,-11.1 7,-7.1 0,-3.1 -7,-7.1"/>
+          
+        </g>
+      </g>
+      <g transform="translate(411.6 113.9)">
+        <g class="rise level-1" style="--delay:0.854s">
+          <polygon class="face left" points="-7,-16.82 0,-12.82 0,4 -7,0"/>
+          <polygon class="face right" points="7,-16.82 0,-12.82 0,4 7,0"/>
+          <polygon class="face top" points="0,-20.82 7,-16.82 0,-12.82 -7,-16.82"/>
+          
+        </g>
+      </g>
+      <g transform="translate(326.2 114.05)">
+        <g class="rise level-0" style="--delay:0.753s">
+          
+          
+          <polygon class="face top" points="0,-4 7,0 0,4 -7,0"/>
+          
+        </g>
+      </g>
+      <g transform="translate(240.8 114.2)">
+        <g class="rise level-0" style="--delay:0.652s">
+          
+          
+          <polygon class="face top" points="0,-4 7,0 0,4 -7,0"/>
+          
+        </g>
+      </g>
+      <g transform="translate(461.4 115.45)">
+        <g class="rise level-0" style="--delay:0.917s">
+          
+          
+          <polygon class="face top" points="0,-4 7,0 0,4 -7,0"/>
+          
+        </g>
+      </g>
+      <g transform="translate(376 115.6)">
+        <g class="rise level-1" style="--delay:0.816s">
+          <polygon class="face left" points="-7,-9.21 0,-5.21 0,4 -7,0"/>
+          <polygon class="face right" points="7,-9.21 0,-5.21 0,4 7,0"/>
+          <polygon class="face top" points="0,-13.21 7,-9.21 0,-5.21 -7,-9.21"/>
+          
+        </g>
+      </g>
+      <g transform="translate(290.6 115.75)">
+        <g class="rise level-0" style="--delay:0.715s">
+          
+          
+          <polygon class="face top" points="0,-4 7,0 0,4 -7,0"/>
+          
+        </g>
+      </g>
+      <g transform="translate(511.2 117)">
+        <g class="rise level-1" style="--delay:0.980s">
+          <polygon class="face left" points="-7,-7.1 0,-3.1 0,4 -7,0"/>
+          <polygon class="face right" points="7,-7.1 0,-3.1 0,4 7,0"/>
+          <polygon class="face top" points="0,-11.1 7,-7.1 0,-3.1 -7,-7.1"/>
+          
+        </g>
+      </g>
+      <g transform="translate(425.8 117.15)">
+        <g class="rise level-1" style="--delay:0.879s">
+          <polygon class="face left" points="-7,-7.1 0,-3.1 0,4 -7,0"/>
+          <polygon class="face right" points="7,-7.1 0,-3.1 0,4 7,0"/>
+          <polygon class="face top" points="0,-11.1 7,-7.1 0,-3.1 -7,-7.1"/>
+          
+        </g>
+      </g>
+      <g transform="translate(340.4 117.3)">
+        <g class="rise level-0" style="--delay:0.778s">
+          
+          
+          <polygon class="face top" points="0,-4 7,0 0,4 -7,0"/>
+          
+        </g>
+      </g>
+      <g transform="translate(255 117.45)">
+        <g class="rise level-0" style="--delay:0.677s">
+          
+          
+          <polygon class="face top" points="0,-4 7,0 0,4 -7,0"/>
+          
+        </g>
+      </g>
+      <g transform="translate(475.6 118.7)">
+        <g class="rise level-1" style="--delay:0.942s">
+          <polygon class="face left" points="-7,-14.91 0,-10.91 0,4 -7,0"/>
+          <polygon class="face right" points="7,-14.91 0,-10.91 0,4 7,0"/>
+          <polygon class="face top" points="0,-18.91 7,-14.91 0,-10.91 -7,-14.91"/>
+          
+        </g>
+      </g>
+      <g transform="translate(390.2 118.85)">
+        <g class="rise level-1" style="--delay:0.841s">
+          <polygon class="face left" points="-7,-7.1 0,-3.1 0,4 -7,0"/>
+          <polygon class="face right" points="7,-7.1 0,-3.1 0,4 7,0"/>
+          <polygon class="face top" points="0,-11.1 7,-7.1 0,-3.1 -7,-7.1"/>
+          
+        </g>
+      </g>
+      <g transform="translate(304.8 119)">
+        <g class="rise level-0" style="--delay:0.740s">
+          
+          
+          <polygon class="face top" points="0,-4 7,0 0,4 -7,0"/>
+          
+        </g>
+      </g>
+      <g transform="translate(525.4 120.25)">
+        <g class="rise level-0" style="--delay:1.005s">
+          
+          
+          <polygon class="face top" points="0,-4 7,0 0,4 -7,0"/>
+          
+        </g>
+      </g>
+      <g transform="translate(440 120.4)">
+        <g class="rise level-1" style="--delay:0.904s">
+          <polygon class="face left" points="-7,-24.12 0,-20.12 0,4 -7,0"/>
+          <polygon class="face right" points="7,-24.12 0,-20.12 0,4 7,0"/>
+          <polygon class="face top" points="0,-28.12 7,-24.12 0,-20.12 -7,-24.12"/>
+          
+        </g>
+      </g>
+      <g transform="translate(354.6 120.55)">
+        <g class="rise level-0" style="--delay:0.803s">
+          
+          
+          <polygon class="face top" points="0,-4 7,0 0,4 -7,0"/>
+          
+        </g>
+      </g>
+      <g transform="translate(269.2 120.7)">
+        <g class="rise level-1" style="--delay:0.702s">
+          <polygon class="face left" points="-7,-17.56 0,-13.56 0,4 -7,0"/>
+          <polygon class="face right" points="7,-17.56 0,-13.56 0,4 7,0"/>
+          <polygon class="face top" points="0,-21.56 7,-17.56 0,-13.56 -7,-17.56"/>
+          
+        </g>
+      </g>
+      <g transform="translate(489.8 121.95)">
+        <g class="rise level-0" style="--delay:0.967s">
+          
+          
+          <polygon class="face top" points="0,-4 7,0 0,4 -7,0"/>
+          
+        </g>
+      </g>
+      <g transform="translate(404.4 122.1)">
+        <g class="rise level-1" style="--delay:0.866s">
+          <polygon class="face left" points="-7,-14.91 0,-10.91 0,4 -7,0"/>
+          <polygon class="face right" points="7,-14.91 0,-10.91 0,4 7,0"/>
+          <polygon class="face top" points="0,-18.91 7,-14.91 0,-10.91 -7,-14.91"/>
+          
+        </g>
+      </g>
+      <g transform="translate(319 122.25)">
+        <g class="rise level-0" style="--delay:0.765s">
+          
+          
+          <polygon class="face top" points="0,-4 7,0 0,4 -7,0"/>
+          
+        </g>
+      </g>
+      <g transform="translate(539.6 123.5)">
+        <g class="rise level-0" style="--delay:1.030s">
+          
+          
+          <polygon class="face top" points="0,-4 7,0 0,4 -7,0"/>
+          
+        </g>
+      </g>
+      <g transform="translate(454.2 123.65)">
+        <g class="rise level-1" style="--delay:0.929s">
+          <polygon class="face left" points="-7,-17.56 0,-13.56 0,4 -7,0"/>
+          <polygon class="face right" points="7,-17.56 0,-13.56 0,4 7,0"/>
+          <polygon class="face top" points="0,-21.56 7,-17.56 0,-13.56 -7,-17.56"/>
+          
+        </g>
+      </g>
+      <g transform="translate(368.8 123.8)">
+        <g class="rise level-1" style="--delay:0.828s">
+          <polygon class="face left" points="-7,-15.95 0,-11.95 0,4 -7,0"/>
+          <polygon class="face right" points="7,-15.95 0,-11.95 0,4 7,0"/>
+          <polygon class="face top" points="0,-19.95 7,-15.95 0,-11.95 -7,-15.95"/>
+          
+        </g>
+      </g>
+      <g transform="translate(283.4 123.95)">
+        <g class="rise level-1" style="--delay:0.727s">
+          <polygon class="face left" points="-7,-9.21 0,-5.21 0,4 -7,0"/>
+          <polygon class="face right" points="7,-9.21 0,-5.21 0,4 7,0"/>
+          <polygon class="face top" points="0,-13.21 7,-9.21 0,-5.21 -7,-9.21"/>
+          
+        </g>
+      </g>
+      <g transform="translate(504 125.2)">
+        <g class="rise level-1" style="--delay:0.992s">
+          <polygon class="face left" points="-7,-10.7 0,-6.7 0,4 -7,0"/>
+          <polygon class="face right" points="7,-10.7 0,-6.7 0,4 7,0"/>
+          <polygon class="face top" points="0,-14.7 7,-10.7 0,-6.7 -7,-10.7"/>
+          
+        </g>
+      </g>
+      <g transform="translate(418.6 125.35)">
+        <g class="rise level-1" style="--delay:0.891s">
+          <polygon class="face left" points="-7,-22.79 0,-18.79 0,4 -7,0"/>
+          <polygon class="face right" points="7,-22.79 0,-18.79 0,4 7,0"/>
+          <polygon class="face top" points="0,-26.79 7,-22.79 0,-18.79 -7,-22.79"/>
+          
+        </g>
+      </g>
+      <g transform="translate(333.2 125.5)">
+        <g class="rise level-1" style="--delay:0.790s">
+          <polygon class="face left" points="-7,-7.1 0,-3.1 0,4 -7,0"/>
+          <polygon class="face right" points="7,-7.1 0,-3.1 0,4 7,0"/>
+          <polygon class="face top" points="0,-11.1 7,-7.1 0,-3.1 -7,-7.1"/>
+          
+        </g>
+      </g>
+      <g transform="translate(553.8 126.75)">
+        <g class="rise level-0" style="--delay:1.055s">
+          
+          
+          <polygon class="face top" points="0,-4 7,0 0,4 -7,0"/>
+          
+        </g>
+      </g>
+      <g transform="translate(468.4 126.9)">
+        <g class="rise level-1" style="--delay:0.954s">
+          <polygon class="face left" points="-7,-15.46 0,-11.46 0,4 -7,0"/>
+          <polygon class="face right" points="7,-15.46 0,-11.46 0,4 7,0"/>
+          <polygon class="face top" points="0,-19.46 7,-15.46 0,-11.46 -7,-15.46"/>
+          
+        </g>
+      </g>
+      <g transform="translate(383 127.05)">
+        <g class="rise level-1" style="--delay:0.853s">
+          <polygon class="face left" points="-7,-16.82 0,-12.82 0,4 -7,0"/>
+          <polygon class="face right" points="7,-16.82 0,-12.82 0,4 7,0"/>
+          <polygon class="face top" points="0,-20.82 7,-16.82 0,-12.82 -7,-16.82"/>
+          
+        </g>
+      </g>
+      <g transform="translate(297.6 127.2)">
+        <g class="rise level-1" style="--delay:0.752s">
+          <polygon class="face left" points="-7,-12.81 0,-8.81 0,4 -7,0"/>
+          <polygon class="face right" points="7,-12.81 0,-8.81 0,4 7,0"/>
+          <polygon class="face top" points="0,-16.81 7,-12.81 0,-8.81 -7,-12.81"/>
+          
+        </g>
+      </g>
+      <g transform="translate(518.2 128.45)">
+        <g class="rise level-1" style="--delay:1.017s">
+          <polygon class="face left" points="-7,-7.1 0,-3.1 0,4 -7,0"/>
+          <polygon class="face right" points="7,-7.1 0,-3.1 0,4 7,0"/>
+          <polygon class="face top" points="0,-11.1 7,-7.1 0,-3.1 -7,-7.1"/>
+          
+        </g>
+      </g>
+      <g transform="translate(432.8 128.6)">
+        <g class="rise level-1" style="--delay:0.916s">
+          <polygon class="face left" points="-7,-22.91 0,-18.91 0,4 -7,0"/>
+          <polygon class="face right" points="7,-22.91 0,-18.91 0,4 7,0"/>
+          <polygon class="face top" points="0,-26.91 7,-22.91 0,-18.91 -7,-22.91"/>
+          
+        </g>
+      </g>
+      <g transform="translate(347.4 128.75)">
+        <g class="rise level-1" style="--delay:0.815s">
+          <polygon class="face left" points="-7,-16.41 0,-12.41 0,4 -7,0"/>
+          <polygon class="face right" points="7,-16.41 0,-12.41 0,4 7,0"/>
+          <polygon class="face top" points="0,-20.41 7,-16.41 0,-12.41 -7,-16.41"/>
+          
+        </g>
+      </g>
+      <g transform="translate(568 130)">
+        <g class="rise level-0" style="--delay:1.080s">
+          
+          
+          <polygon class="face top" points="0,-4 7,0 0,4 -7,0"/>
+          
+        </g>
+      </g>
+      <g transform="translate(482.6 130.15)">
+        <g class="rise level-0" style="--delay:0.979s">
+          
+          
+          <polygon class="face top" points="0,-4 7,0 0,4 -7,0"/>
+          
+        </g>
+      </g>
+      <g transform="translate(397.2 130.3)">
+        <g class="rise level-1" style="--delay:0.878s">
+          <polygon class="face left" points="-7,-20.81 0,-16.81 0,4 -7,0"/>
+          <polygon class="face right" points="7,-20.81 0,-16.81 0,4 7,0"/>
+          <polygon class="face top" points="0,-24.81 7,-20.81 0,-16.81 -7,-20.81"/>
+          
+        </g>
+      </g>
+      <g transform="translate(311.8 130.45)">
+        <g class="rise level-1" style="--delay:0.777s">
+          <polygon class="face left" points="-7,-14.3 0,-10.3 0,4 -7,0"/>
+          <polygon class="face right" points="7,-14.3 0,-10.3 0,4 7,0"/>
+          <polygon class="face top" points="0,-18.3 7,-14.3 0,-10.3 -7,-14.3"/>
+          
+        </g>
+      </g>
+      <g transform="translate(532.4 131.7)">
+        <g class="rise level-1" style="--delay:1.042s">
+          <polygon class="face left" points="-7,-10.7 0,-6.7 0,4 -7,0"/>
+          <polygon class="face right" points="7,-10.7 0,-6.7 0,4 7,0"/>
+          <polygon class="face top" points="0,-14.7 7,-10.7 0,-6.7 -7,-10.7"/>
+          
+        </g>
+      </g>
+      <g transform="translate(447 131.85)">
+        <g class="rise level-2" style="--delay:0.941s">
+          <polygon class="face left" points="-7,-28.23 0,-24.23 0,4 -7,0"/>
+          <polygon class="face right" points="7,-28.23 0,-24.23 0,4 7,0"/>
+          <polygon class="face top" points="0,-32.23 7,-28.23 0,-24.23 -7,-28.23"/>
+          
+        </g>
+      </g>
+      <g transform="translate(361.6 132)">
+        <g class="rise level-1" style="--delay:0.840s">
+          <polygon class="face left" points="-7,-12.81 0,-8.81 0,4 -7,0"/>
+          <polygon class="face right" points="7,-12.81 0,-8.81 0,4 7,0"/>
+          <polygon class="face top" points="0,-16.81 7,-12.81 0,-8.81 -7,-12.81"/>
+          
+        </g>
+      </g>
+      <g transform="translate(582.2 133.25)">
+        <g class="rise level-0" style="--delay:1.105s">
+          
+          
+          <polygon class="face top" points="0,-4 7,0 0,4 -7,0"/>
+          
+        </g>
+      </g>
+      <g transform="translate(496.8 133.4)">
+        <g class="rise level-1" style="--delay:1.004s">
+          <polygon class="face left" points="-7,-9.21 0,-5.21 0,4 -7,0"/>
+          <polygon class="face right" points="7,-9.21 0,-5.21 0,4 7,0"/>
+          <polygon class="face top" points="0,-13.21 7,-9.21 0,-5.21 -7,-9.21"/>
+          
+        </g>
+      </g>
+      <g transform="translate(411.4 133.55)">
+        <g class="rise level-1" style="--delay:0.903s">
+          <polygon class="face left" points="-7,-24.5 0,-20.5 0,4 -7,0"/>
+          <polygon class="face right" points="7,-24.5 0,-20.5 0,4 7,0"/>
+          <polygon class="face top" points="0,-28.5 7,-24.5 0,-20.5 -7,-24.5"/>
+          
+        </g>
+      </g>
+      <g transform="translate(326 133.7)">
+        <g class="rise level-0" style="--delay:0.802s">
+          
+          
+          <polygon class="face top" points="0,-4 7,0 0,4 -7,0"/>
+          
+        </g>
+      </g>
+      <g transform="translate(546.6 134.95)">
+        <g class="rise level-0" style="--delay:1.067s">
+          
+          
+          <polygon class="face top" points="0,-4 7,0 0,4 -7,0"/>
+          
+        </g>
+      </g>
+      <g transform="translate(461.2 135.1)">
+        <g class="rise level-1" style="--delay:0.966s">
+          <polygon class="face left" points="-7,-10.7 0,-6.7 0,4 -7,0"/>
+          <polygon class="face right" points="7,-10.7 0,-6.7 0,4 7,0"/>
+          <polygon class="face top" points="0,-14.7 7,-10.7 0,-6.7 -7,-10.7"/>
+          
+        </g>
+      </g>
+      <g transform="translate(375.8 135.25)">
+        <g class="rise level-0" style="--delay:0.865s">
+          
+          
+          <polygon class="face top" points="0,-4 7,0 0,4 -7,0"/>
+          
+        </g>
+      </g>
+      <g transform="translate(596.4 136.5)">
+        <g class="rise level-0" style="--delay:1.130s">
+          
+          
+          <polygon class="face top" points="0,-4 7,0 0,4 -7,0"/>
+          
+        </g>
+      </g>
+      <g transform="translate(511 136.65)">
+        <g class="rise level-1" style="--delay:1.029s">
+          <polygon class="face left" points="-7,-15.46 0,-11.46 0,4 -7,0"/>
+          <polygon class="face right" points="7,-15.46 0,-11.46 0,4 7,0"/>
+          <polygon class="face top" points="0,-19.46 7,-15.46 0,-11.46 -7,-15.46"/>
+          
+        </g>
+      </g>
+      <g transform="translate(425.6 136.8)">
+        <g class="rise level-1" style="--delay:0.928s">
+          <polygon class="face left" points="-7,-22.91 0,-18.91 0,4 -7,0"/>
+          <polygon class="face right" points="7,-22.91 0,-18.91 0,4 7,0"/>
+          <polygon class="face top" points="0,-26.91 7,-22.91 0,-18.91 -7,-22.91"/>
+          
+        </g>
+      </g>
+      <g transform="translate(340.2 136.95)">
+        <g class="rise level-1" style="--delay:0.827s">
+          <polygon class="face left" points="-7,-11.86 0,-7.86 0,4 -7,0"/>
+          <polygon class="face right" points="7,-11.86 0,-7.86 0,4 7,0"/>
+          <polygon class="face top" points="0,-15.86 7,-11.86 0,-7.86 -7,-11.86"/>
+          
+        </g>
+      </g>
+      <g transform="translate(560.8 138.2)">
+        <g class="rise level-0" style="--delay:1.092s">
+          
+          
+          <polygon class="face top" points="0,-4 7,0 0,4 -7,0"/>
+          
+        </g>
+      </g>
+      <g transform="translate(475.4 138.35)">
+        <g class="rise level-0" style="--delay:0.991s">
+          
+          
+          <polygon class="face top" points="0,-4 7,0 0,4 -7,0"/>
+          
+        </g>
+      </g>
+      <g transform="translate(390 138.5)">
+        <g class="rise level-1" style="--delay:0.890s">
+          <polygon class="face left" points="-7,-22.11 0,-18.11 0,4 -7,0"/>
+          <polygon class="face right" points="7,-22.11 0,-18.11 0,4 7,0"/>
+          <polygon class="face top" points="0,-26.11 7,-22.11 0,-18.11 -7,-22.11"/>
+          
+        </g>
+      </g>
+      <g transform="translate(610.6 139.75)">
+        <g class="rise level-0" style="--delay:1.155s">
+          
+          
+          <polygon class="face top" points="0,-4 7,0 0,4 -7,0"/>
+          
+        </g>
+      </g>
+      <g transform="translate(525.2 139.9)">
+        <g class="rise level-0" style="--delay:1.054s">
+          
+          
+          <polygon class="face top" points="0,-4 7,0 0,4 -7,0"/>
+          
+        </g>
+      </g>
+      <g transform="translate(439.8 140.05)">
+        <g class="rise level-1" style="--delay:0.953s">
+          <polygon class="face left" points="-7,-23.15 0,-19.15 0,4 -7,0"/>
+          <polygon class="face right" points="7,-23.15 0,-19.15 0,4 7,0"/>
+          <polygon class="face top" points="0,-27.15 7,-23.15 0,-19.15 -7,-23.15"/>
+          
+        </g>
+      </g>
+      <g transform="translate(354.4 140.2)">
+        <g class="rise level-1" style="--delay:0.852s">
+          <polygon class="face left" points="-7,-15.95 0,-11.95 0,4 -7,0"/>
+          <polygon class="face right" points="7,-15.95 0,-11.95 0,4 7,0"/>
+          <polygon class="face top" points="0,-19.95 7,-15.95 0,-11.95 -7,-15.95"/>
+          
+        </g>
+      </g>
+      <g transform="translate(575 141.45)">
+        <g class="rise level-0" style="--delay:1.117s">
+          
+          
+          <polygon class="face top" points="0,-4 7,0 0,4 -7,0"/>
+          
+        </g>
+      </g>
+      <g transform="translate(489.6 141.6)">
+        <g class="rise level-0" style="--delay:1.016s">
+          
+          
+          <polygon class="face top" points="0,-4 7,0 0,4 -7,0"/>
+          
+        </g>
+      </g>
+      <g transform="translate(404.2 141.75)">
+        <g class="rise level-1" style="--delay:0.915s">
+          <polygon class="face left" points="-7,-13.61 0,-9.61 0,4 -7,0"/>
+          <polygon class="face right" points="7,-13.61 0,-9.61 0,4 7,0"/>
+          <polygon class="face top" points="0,-17.61 7,-13.61 0,-9.61 -7,-13.61"/>
+          
+        </g>
+      </g>
+      <g transform="translate(624.8 143)">
+        <g class="rise level-1" style="--delay:1.180s">
+          <polygon class="face left" points="-7,-12.81 0,-8.81 0,4 -7,0"/>
+          <polygon class="face right" points="7,-12.81 0,-8.81 0,4 7,0"/>
+          <polygon class="face top" points="0,-16.81 7,-12.81 0,-8.81 -7,-12.81"/>
+          
+        </g>
+      </g>
+      <g transform="translate(539.4 143.15)">
+        <g class="rise level-0" style="--delay:1.079s">
+          
+          
+          <polygon class="face top" points="0,-4 7,0 0,4 -7,0"/>
+          
+        </g>
+      </g>
+      <g transform="translate(454 143.3)">
+        <g class="rise level-1" style="--delay:0.978s">
+          <polygon class="face left" points="-7,-7.1 0,-3.1 0,4 -7,0"/>
+          <polygon class="face right" points="7,-7.1 0,-3.1 0,4 7,0"/>
+          <polygon class="face top" points="0,-11.1 7,-7.1 0,-3.1 -7,-7.1"/>
+          
+        </g>
+      </g>
+      <g transform="translate(368.6 143.45)">
+        <g class="rise level-1" style="--delay:0.877s">
+          <polygon class="face left" points="-7,-15.46 0,-11.46 0,4 -7,0"/>
+          <polygon class="face right" points="7,-15.46 0,-11.46 0,4 7,0"/>
+          <polygon class="face top" points="0,-19.46 7,-15.46 0,-11.46 -7,-15.46"/>
+          
+        </g>
+      </g>
+      <g transform="translate(589.2 144.7)">
+        <g class="rise level-1" style="--delay:1.142s">
+          <polygon class="face left" points="-7,-14.3 0,-10.3 0,4 -7,0"/>
+          <polygon class="face right" points="7,-14.3 0,-10.3 0,4 7,0"/>
+          <polygon class="face top" points="0,-18.3 7,-14.3 0,-10.3 -7,-14.3"/>
+          
+        </g>
+      </g>
+      <g transform="translate(503.8 144.85)">
+        <g class="rise level-0" style="--delay:1.041s">
+          
+          
+          <polygon class="face top" points="0,-4 7,0 0,4 -7,0"/>
+          
+        </g>
+      </g>
+      <g transform="translate(418.4 145)">
+        <g class="rise level-1" style="--delay:0.940s">
+          <polygon class="face left" points="-7,-14.3 0,-10.3 0,4 -7,0"/>
+          <polygon class="face right" points="7,-14.3 0,-10.3 0,4 7,0"/>
+          <polygon class="face top" points="0,-18.3 7,-14.3 0,-10.3 -7,-14.3"/>
+          
+        </g>
+      </g>
+      <g transform="translate(639 146.25)">
+        <g class="rise level-0" style="--delay:1.205s">
+          
+          
+          <polygon class="face top" points="0,-4 7,0 0,4 -7,0"/>
+          
+        </g>
+      </g>
+      <g transform="translate(553.6 146.4)">
+        <g class="rise level-0" style="--delay:1.104s">
+          
+          
+          <polygon class="face top" points="0,-4 7,0 0,4 -7,0"/>
+          
+        </g>
+      </g>
+      <g transform="translate(468.2 146.55)">
+        <g class="rise level-1" style="--delay:1.003s">
+          <polygon class="face left" points="-7,-7.1 0,-3.1 0,4 -7,0"/>
+          <polygon class="face right" points="7,-7.1 0,-3.1 0,4 7,0"/>
+          <polygon class="face top" points="0,-11.1 7,-7.1 0,-3.1 -7,-7.1"/>
+          
+        </g>
+      </g>
+      <g transform="translate(382.8 146.7)">
+        <g class="rise level-1" style="--delay:0.902s">
+          <polygon class="face left" points="-7,-7.1 0,-3.1 0,4 -7,0"/>
+          <polygon class="face right" points="7,-7.1 0,-3.1 0,4 7,0"/>
+          <polygon class="face top" points="0,-11.1 7,-7.1 0,-3.1 -7,-7.1"/>
+          
+        </g>
+      </g>
+      <g transform="translate(603.4 147.95)">
+        <g class="rise level-1" style="--delay:1.167s">
+          <polygon class="face left" points="-7,-14.3 0,-10.3 0,4 -7,0"/>
+          <polygon class="face right" points="7,-14.3 0,-10.3 0,4 7,0"/>
+          <polygon class="face top" points="0,-18.3 7,-14.3 0,-10.3 -7,-14.3"/>
+          
+        </g>
+      </g>
+      <g transform="translate(518 148.1)">
+        <g class="rise level-1" style="--delay:1.066s">
+          <polygon class="face left" points="-7,-7.1 0,-3.1 0,4 -7,0"/>
+          <polygon class="face right" points="7,-7.1 0,-3.1 0,4 7,0"/>
+          <polygon class="face top" points="0,-11.1 7,-7.1 0,-3.1 -7,-7.1"/>
+          
+        </g>
+      </g>
+      <g transform="translate(432.6 148.25)">
+        <g class="rise level-1" style="--delay:0.965s">
+          <polygon class="face left" points="-7,-10.7 0,-6.7 0,4 -7,0"/>
+          <polygon class="face right" points="7,-10.7 0,-6.7 0,4 7,0"/>
+          <polygon class="face top" points="0,-14.7 7,-10.7 0,-6.7 -7,-10.7"/>
+          
+        </g>
+      </g>
+      <g transform="translate(653.2 149.5)">
+        <g class="rise level-1" style="--delay:1.230s">
+          <polygon class="face left" points="-7,-17.56 0,-13.56 0,4 -7,0"/>
+          <polygon class="face right" points="7,-17.56 0,-13.56 0,4 7,0"/>
+          <polygon class="face top" points="0,-21.56 7,-17.56 0,-13.56 -7,-17.56"/>
+          
+        </g>
+      </g>
+      <g transform="translate(567.8 149.65)">
+        <g class="rise level-0" style="--delay:1.129s">
+          
+          
+          <polygon class="face top" points="0,-4 7,0 0,4 -7,0"/>
+          
+        </g>
+      </g>
+      <g transform="translate(482.4 149.8)">
+        <g class="rise level-0" style="--delay:1.028s">
+          
+          
+          <polygon class="face top" points="0,-4 7,0 0,4 -7,0"/>
+          
+        </g>
+      </g>
+      <g transform="translate(397 149.95)">
+        <g class="rise level-1" style="--delay:0.927s">
+          <polygon class="face left" points="-7,-17.21 0,-13.21 0,4 -7,0"/>
+          <polygon class="face right" points="7,-17.21 0,-13.21 0,4 7,0"/>
+          <polygon class="face top" points="0,-21.21 7,-17.21 0,-13.21 -7,-17.21"/>
+          
+        </g>
+      </g>
+      <g transform="translate(617.6 151.2)">
+        <g class="rise level-0" style="--delay:1.192s">
+          
+          
+          <polygon class="face top" points="0,-4 7,0 0,4 -7,0"/>
+          
+        </g>
+      </g>
+      <g transform="translate(532.2 151.35)">
+        <g class="rise level-0" style="--delay:1.091s">
+          
+          
+          <polygon class="face top" points="0,-4 7,0 0,4 -7,0"/>
+          
+        </g>
+      </g>
+      <g transform="translate(446.8 151.5)">
+        <g class="rise level-1" style="--delay:0.990s">
+          <polygon class="face left" points="-7,-15.95 0,-11.95 0,4 -7,0"/>
+          <polygon class="face right" points="7,-15.95 0,-11.95 0,4 7,0"/>
+          <polygon class="face top" points="0,-19.95 7,-15.95 0,-11.95 -7,-15.95"/>
+          
+        </g>
+      </g>
+      <g transform="translate(667.4 152.75)">
+        <g class="rise level-1" style="--delay:1.255s">
+          <polygon class="face left" points="-7,-11.86 0,-7.86 0,4 -7,0"/>
+          <polygon class="face right" points="7,-11.86 0,-7.86 0,4 7,0"/>
+          <polygon class="face top" points="0,-15.86 7,-11.86 0,-7.86 -7,-11.86"/>
+          
+        </g>
+      </g>
+      <g transform="translate(582 152.9)">
+        <g class="rise level-1" style="--delay:1.154s">
+          <polygon class="face left" points="-7,-7.1 0,-3.1 0,4 -7,0"/>
+          <polygon class="face right" points="7,-7.1 0,-3.1 0,4 7,0"/>
+          <polygon class="face top" points="0,-11.1 7,-7.1 0,-3.1 -7,-7.1"/>
+          
+        </g>
+      </g>
+      <g transform="translate(496.6 153.05)">
+        <g class="rise level-1" style="--delay:1.053s">
+          <polygon class="face left" points="-7,-7.1 0,-3.1 0,4 -7,0"/>
+          <polygon class="face right" points="7,-7.1 0,-3.1 0,4 7,0"/>
+          <polygon class="face top" points="0,-11.1 7,-7.1 0,-3.1 -7,-7.1"/>
+          
+        </g>
+      </g>
+      <g transform="translate(411.2 153.2)">
+        <g class="rise level-1" style="--delay:0.952s">
+          <polygon class="face left" points="-7,-15.95 0,-11.95 0,4 -7,0"/>
+          <polygon class="face right" points="7,-15.95 0,-11.95 0,4 7,0"/>
+          <polygon class="face top" points="0,-19.95 7,-15.95 0,-11.95 -7,-15.95"/>
+          
+        </g>
+      </g>
+      <g transform="translate(631.8 154.45)">
+        <g class="rise level-1" style="--delay:1.217s">
+          <polygon class="face left" points="-7,-9.21 0,-5.21 0,4 -7,0"/>
+          <polygon class="face right" points="7,-9.21 0,-5.21 0,4 7,0"/>
+          <polygon class="face top" points="0,-13.21 7,-9.21 0,-5.21 -7,-9.21"/>
+          
+        </g>
+      </g>
+      <g transform="translate(546.4 154.6)">
+        <g class="rise level-0" style="--delay:1.116s">
+          
+          
+          <polygon class="face top" points="0,-4 7,0 0,4 -7,0"/>
+          
+        </g>
+      </g>
+      <g transform="translate(461 154.75)">
+        <g class="rise level-1" style="--delay:1.015s">
+          <polygon class="face left" points="-7,-15.46 0,-11.46 0,4 -7,0"/>
+          <polygon class="face right" points="7,-15.46 0,-11.46 0,4 7,0"/>
+          <polygon class="face top" points="0,-19.46 7,-15.46 0,-11.46 -7,-15.46"/>
+          
+        </g>
+      </g>
+      <g transform="translate(681.6 156)">
+        <g class="rise level-1" style="--delay:1.280s">
+          <polygon class="face left" points="-7,-7.1 0,-3.1 0,4 -7,0"/>
+          <polygon class="face right" points="7,-7.1 0,-3.1 0,4 7,0"/>
+          <polygon class="face top" points="0,-11.1 7,-7.1 0,-3.1 -7,-7.1"/>
+          
+        </g>
+      </g>
+      <g transform="translate(596.2 156.15)">
+        <g class="rise level-1" style="--delay:1.179s">
+          <polygon class="face left" points="-7,-17.56 0,-13.56 0,4 -7,0"/>
+          <polygon class="face right" points="7,-17.56 0,-13.56 0,4 7,0"/>
+          <polygon class="face top" points="0,-21.56 7,-17.56 0,-13.56 -7,-17.56"/>
+          
+        </g>
+      </g>
+      <g transform="translate(510.8 156.3)">
+        <g class="rise level-0" style="--delay:1.078s">
+          
+          
+          <polygon class="face top" points="0,-4 7,0 0,4 -7,0"/>
+          
+        </g>
+      </g>
+      <g transform="translate(425.4 156.45)">
+        <g class="rise level-2" style="--delay:0.977s">
+          <polygon class="face left" points="-7,-26.98 0,-22.98 0,4 -7,0"/>
+          <polygon class="face right" points="7,-26.98 0,-22.98 0,4 7,0"/>
+          <polygon class="face top" points="0,-30.98 7,-26.98 0,-22.98 -7,-26.98"/>
+          
+        </g>
+      </g>
+      <g transform="translate(646 157.7)">
+        <g class="rise level-0" style="--delay:1.242s">
+          
+          
+          <polygon class="face top" points="0,-4 7,0 0,4 -7,0"/>
+          
+        </g>
+      </g>
+      <g transform="translate(560.6 157.85)">
+        <g class="rise level-0" style="--delay:1.141s">
+          
+          
+          <polygon class="face top" points="0,-4 7,0 0,4 -7,0"/>
+          
+        </g>
+      </g>
+      <g transform="translate(475.2 158)">
+        <g class="rise level-1" style="--delay:1.040s">
+          <polygon class="face left" points="-7,-7.1 0,-3.1 0,4 -7,0"/>
+          <polygon class="face right" points="7,-7.1 0,-3.1 0,4 7,0"/>
+          <polygon class="face top" points="0,-11.1 7,-7.1 0,-3.1 -7,-7.1"/>
+          
+        </g>
+      </g>
+      <g transform="translate(695.8 159.25)">
+        <g class="rise level-2" style="--delay:1.305s">
+          <polygon class="face left" points="-7,-29.49 0,-25.49 0,4 -7,0"/>
+          <polygon class="face right" points="7,-29.49 0,-25.49 0,4 7,0"/>
+          <polygon class="face top" points="0,-33.49 7,-29.49 0,-25.49 -7,-29.49"/>
+          
+        </g>
+      </g>
+      <g transform="translate(610.4 159.4)">
+        <g class="rise level-1" style="--delay:1.204s">
+          <polygon class="face left" points="-7,-14.3 0,-10.3 0,4 -7,0"/>
+          <polygon class="face right" points="7,-14.3 0,-10.3 0,4 7,0"/>
+          <polygon class="face top" points="0,-18.3 7,-14.3 0,-10.3 -7,-14.3"/>
+          
+        </g>
+      </g>
+      <g transform="translate(525 159.55)">
+        <g class="rise level-0" style="--delay:1.103s">
+          
+          
+          <polygon class="face top" points="0,-4 7,0 0,4 -7,0"/>
+          
+        </g>
+      </g>
+      <g transform="translate(439.6 159.7)">
+        <g class="rise level-0" style="--delay:1.002s">
+          
+          
+          <polygon class="face top" points="0,-4 7,0 0,4 -7,0"/>
+          
+        </g>
+      </g>
+      <g transform="translate(660.2 160.95)">
+        <g class="rise level-0" style="--delay:1.267s">
+          
+          
+          <polygon class="face top" points="0,-4 7,0 0,4 -7,0"/>
+          
+        </g>
+      </g>
+      <g transform="translate(574.8 161.1)">
+        <g class="rise level-1" style="--delay:1.166s">
+          <polygon class="face left" points="-7,-12.81 0,-8.81 0,4 -7,0"/>
+          <polygon class="face right" points="7,-12.81 0,-8.81 0,4 7,0"/>
+          <polygon class="face top" points="0,-16.81 7,-12.81 0,-8.81 -7,-12.81"/>
+          
+        </g>
+      </g>
+      <g transform="translate(489.4 161.25)">
+        <g class="rise level-1" style="--delay:1.065s">
+          <polygon class="face left" points="-7,-7.1 0,-3.1 0,4 -7,0"/>
+          <polygon class="face right" points="7,-7.1 0,-3.1 0,4 7,0"/>
+          <polygon class="face top" points="0,-11.1 7,-7.1 0,-3.1 -7,-7.1"/>
+          
+        </g>
+      </g>
+      <g transform="translate(710 162.5)">
+        <g class="rise level-1" style="--delay:1.330s">
+          <polygon class="face left" points="-7,-21.16 0,-17.16 0,4 -7,0"/>
+          <polygon class="face right" points="7,-21.16 0,-17.16 0,4 7,0"/>
+          <polygon class="face top" points="0,-25.16 7,-21.16 0,-17.16 -7,-21.16"/>
+          
+        </g>
+      </g>
+      <g transform="translate(624.6 162.65)">
+        <g class="rise level-0" style="--delay:1.229s">
+          
+          
+          <polygon class="face top" points="0,-4 7,0 0,4 -7,0"/>
+          
+        </g>
+      </g>
+      <g transform="translate(539.2 162.8)">
+        <g class="rise level-0" style="--delay:1.128s">
+          
+          
+          <polygon class="face top" points="0,-4 7,0 0,4 -7,0"/>
+          
+        </g>
+      </g>
+      <g transform="translate(453.8 162.95)">
+        <g class="rise level-1" style="--delay:1.027s">
+          <polygon class="face left" points="-7,-10.7 0,-6.7 0,4 -7,0"/>
+          <polygon class="face right" points="7,-10.7 0,-6.7 0,4 7,0"/>
+          <polygon class="face top" points="0,-14.7 7,-10.7 0,-6.7 -7,-10.7"/>
+          
+        </g>
+      </g>
+      <g transform="translate(674.4 164.2)">
+        <g class="rise level-1" style="--delay:1.292s">
+          <polygon class="face left" points="-7,-24.5 0,-20.5 0,4 -7,0"/>
+          <polygon class="face right" points="7,-24.5 0,-20.5 0,4 7,0"/>
+          <polygon class="face top" points="0,-28.5 7,-24.5 0,-20.5 -7,-24.5"/>
+          
+        </g>
+      </g>
+      <g transform="translate(589 164.35)">
+        <g class="rise level-0" style="--delay:1.191s">
+          
+          
+          <polygon class="face top" points="0,-4 7,0 0,4 -7,0"/>
+          
+        </g>
+      </g>
+      <g transform="translate(503.6 164.5)">
+        <g class="rise level-1" style="--delay:1.090s">
+          <polygon class="face left" points="-7,-7.1 0,-3.1 0,4 -7,0"/>
+          <polygon class="face right" points="7,-7.1 0,-3.1 0,4 7,0"/>
+          <polygon class="face top" points="0,-11.1 7,-7.1 0,-3.1 -7,-7.1"/>
+          
+        </g>
+      </g>
+      <g transform="translate(724.2 165.75)">
+        <g class="rise level-1" style="--delay:1.355s">
+          <polygon class="face left" points="-7,-24.68 0,-20.68 0,4 -7,0"/>
+          <polygon class="face right" points="7,-24.68 0,-20.68 0,4 7,0"/>
+          <polygon class="face top" points="0,-28.68 7,-24.68 0,-20.68 -7,-24.68"/>
+          
+        </g>
+      </g>
+      <g transform="translate(638.8 165.9)">
+        <g class="rise level-0" style="--delay:1.254s">
+          
+          
+          <polygon class="face top" points="0,-4 7,0 0,4 -7,0"/>
+          
+        </g>
+      </g>
+      <g transform="translate(553.4 166.05)">
+        <g class="rise level-1" style="--delay:1.153s">
+          <polygon class="face left" points="-7,-10.7 0,-6.7 0,4 -7,0"/>
+          <polygon class="face right" points="7,-10.7 0,-6.7 0,4 7,0"/>
+          <polygon class="face top" points="0,-14.7 7,-10.7 0,-6.7 -7,-10.7"/>
+          
+        </g>
+      </g>
+      <g transform="translate(468 166.2)">
+        <g class="rise level-0" style="--delay:1.052s">
+          
+          
+          <polygon class="face top" points="0,-4 7,0 0,4 -7,0"/>
+          
+        </g>
+      </g>
+      <g transform="translate(688.6 167.45)">
+        <g class="rise level-1" style="--delay:1.317s">
+          <polygon class="face left" points="-7,-23.71 0,-19.71 0,4 -7,0"/>
+          <polygon class="face right" points="7,-23.71 0,-19.71 0,4 7,0"/>
+          <polygon class="face top" points="0,-27.71 7,-23.71 0,-19.71 -7,-23.71"/>
+          
+        </g>
+      </g>
+      <g transform="translate(603.2 167.6)">
+        <g class="rise level-1" style="--delay:1.216s">
+          <polygon class="face left" points="-7,-17.9 0,-13.9 0,4 -7,0"/>
+          <polygon class="face right" points="7,-17.9 0,-13.9 0,4 7,0"/>
+          <polygon class="face top" points="0,-21.9 7,-17.9 0,-13.9 -7,-17.9"/>
+          
+        </g>
+      </g>
+      <g transform="translate(517.8 167.75)">
+        <g class="rise level-0" style="--delay:1.115s">
+          
+          
+          <polygon class="face top" points="0,-4 7,0 0,4 -7,0"/>
+          
+        </g>
+      </g>
+      <g transform="translate(738.4 169)">
+        <g class="rise level-1" style="--delay:1.380s">
+          <polygon class="face left" points="-7,-24.85 0,-20.85 0,4 -7,0"/>
+          <polygon class="face right" points="7,-24.85 0,-20.85 0,4 7,0"/>
+          <polygon class="face top" points="0,-28.85 7,-24.85 0,-20.85 -7,-24.85"/>
+          
+        </g>
+      </g>
+      <g transform="translate(653 169.15)">
+        <g class="rise level-1" style="--delay:1.279s">
+          <polygon class="face left" points="-7,-7.1 0,-3.1 0,4 -7,0"/>
+          <polygon class="face right" points="7,-7.1 0,-3.1 0,4 7,0"/>
+          <polygon class="face top" points="0,-11.1 7,-7.1 0,-3.1 -7,-7.1"/>
+          
+        </g>
+      </g>
+      <g transform="translate(567.6 169.3)">
+        <g class="rise level-1" style="--delay:1.178s">
+          <polygon class="face left" points="-7,-17.9 0,-13.9 0,4 -7,0"/>
+          <polygon class="face right" points="7,-17.9 0,-13.9 0,4 7,0"/>
+          <polygon class="face top" points="0,-21.9 7,-17.9 0,-13.9 -7,-17.9"/>
+          
+        </g>
+      </g>
+      <g transform="translate(482.2 169.45)">
+        <g class="rise level-0" style="--delay:1.077s">
+          
+          
+          <polygon class="face top" points="0,-4 7,0 0,4 -7,0"/>
+          
+        </g>
+      </g>
+      <g transform="translate(702.8 170.7)">
+        <g class="rise level-1" style="--delay:1.342s">
+          <polygon class="face left" points="-7,-23.27 0,-19.27 0,4 -7,0"/>
+          <polygon class="face right" points="7,-23.27 0,-19.27 0,4 7,0"/>
+          <polygon class="face top" points="0,-27.27 7,-23.27 0,-19.27 -7,-23.27"/>
+          
+        </g>
+      </g>
+      <g transform="translate(617.4 170.85)">
+        <g class="rise level-0" style="--delay:1.241s">
+          
+          
+          <polygon class="face top" points="0,-4 7,0 0,4 -7,0"/>
+          
+        </g>
+      </g>
+      <g transform="translate(532 171)">
+        <g class="rise level-0" style="--delay:1.140s">
+          
+          
+          <polygon class="face top" points="0,-4 7,0 0,4 -7,0"/>
+          
+        </g>
+      </g>
+      <g transform="translate(667.2 172.4)">
+        <g class="rise level-2" style="--delay:1.304s">
+          <polygon class="face left" points="-7,-26.57 0,-22.57 0,4 -7,0"/>
+          <polygon class="face right" points="7,-26.57 0,-22.57 0,4 7,0"/>
+          <polygon class="face top" points="0,-30.57 7,-26.57 0,-22.57 -7,-26.57"/>
+          
+        </g>
+      </g>
+      <g transform="translate(581.8 172.55)">
+        <g class="rise level-1" style="--delay:1.203s">
+          <polygon class="face left" points="-7,-20.99 0,-16.99 0,4 -7,0"/>
+          <polygon class="face right" points="7,-20.99 0,-16.99 0,4 7,0"/>
+          <polygon class="face top" points="0,-24.99 7,-20.99 0,-16.99 -7,-20.99"/>
+          
+        </g>
+      </g>
+      <g transform="translate(496.4 172.7)">
+        <g class="rise level-0" style="--delay:1.102s">
+          
+          
+          <polygon class="face top" points="0,-4 7,0 0,4 -7,0"/>
+          
+        </g>
+      </g>
+      <g transform="translate(717 173.95)">
+        <g class="rise level-1" style="--delay:1.367s">
+          <polygon class="face left" points="-7,-25.78 0,-21.78 0,4 -7,0"/>
+          <polygon class="face right" points="7,-25.78 0,-21.78 0,4 7,0"/>
+          <polygon class="face top" points="0,-29.78 7,-25.78 0,-21.78 -7,-25.78"/>
+          
+        </g>
+      </g>
+      <g transform="translate(631.6 174.1)">
+        <g class="rise level-0" style="--delay:1.266s">
+          
+          
+          <polygon class="face top" points="0,-4 7,0 0,4 -7,0"/>
+          
+        </g>
+      </g>
+      <g transform="translate(546.2 174.25)">
+        <g class="rise level-1" style="--delay:1.165s">
+          <polygon class="face left" points="-7,-12.81 0,-8.81 0,4 -7,0"/>
+          <polygon class="face right" points="7,-12.81 0,-8.81 0,4 7,0"/>
+          <polygon class="face top" points="0,-16.81 7,-12.81 0,-8.81 -7,-12.81"/>
+          
+        </g>
+      </g>
+      <g transform="translate(681.4 175.65)">
+        <g class="rise level-1" style="--delay:1.329s">
+          <polygon class="face left" points="-7,-18.51 0,-14.51 0,4 -7,0"/>
+          <polygon class="face right" points="7,-18.51 0,-14.51 0,4 7,0"/>
+          <polygon class="face top" points="0,-22.51 7,-18.51 0,-14.51 -7,-18.51"/>
+          
+        </g>
+      </g>
+      <g transform="translate(596 175.8)">
+        <g class="rise level-1" style="--delay:1.228s">
+          <polygon class="face left" points="-7,-19.78 0,-15.78 0,4 -7,0"/>
+          <polygon class="face right" points="7,-19.78 0,-15.78 0,4 7,0"/>
+          <polygon class="face top" points="0,-23.78 7,-19.78 0,-15.78 -7,-19.78"/>
+          
+        </g>
+      </g>
+      <g transform="translate(510.6 175.95)">
+        <g class="rise level-0" style="--delay:1.127s">
+          
+          
+          <polygon class="face top" points="0,-4 7,0 0,4 -7,0"/>
+          
+        </g>
+      </g>
+      <g transform="translate(731.2 177.2)">
+        <g class="rise level-1" style="--delay:1.392s">
+          <polygon class="face left" points="-7,-14.3 0,-10.3 0,4 -7,0"/>
+          <polygon class="face right" points="7,-14.3 0,-10.3 0,4 7,0"/>
+          <polygon class="face top" points="0,-18.3 7,-14.3 0,-10.3 -7,-14.3"/>
+          
+        </g>
+      </g>
+      <g transform="translate(645.8 177.35)">
+        <g class="rise level-1" style="--delay:1.291s">
+          <polygon class="face left" points="-7,-7.1 0,-3.1 0,4 -7,0"/>
+          <polygon class="face right" points="7,-7.1 0,-3.1 0,4 7,0"/>
+          <polygon class="face top" points="0,-11.1 7,-7.1 0,-3.1 -7,-7.1"/>
+          
+        </g>
+      </g>
+      <g transform="translate(560.4 177.5)">
+        <g class="rise level-0" style="--delay:1.190s">
+          
+          
+          <polygon class="face top" points="0,-4 7,0 0,4 -7,0"/>
+          
+        </g>
+      </g>
+      <g transform="translate(695.6 178.9)">
+        <g class="rise level-2" style="--delay:1.354s">
+          <polygon class="face left" points="-7,-28.7 0,-24.7 0,4 -7,0"/>
+          <polygon class="face right" points="7,-28.7 0,-24.7 0,4 7,0"/>
+          <polygon class="face top" points="0,-32.7 7,-28.7 0,-24.7 -7,-28.7"/>
+          
+        </g>
+      </g>
+      <g transform="translate(610.2 179.05)">
+        <g class="rise level-1" style="--delay:1.253s">
+          <polygon class="face left" points="-7,-22.39 0,-18.39 0,4 -7,0"/>
+          <polygon class="face right" points="7,-22.39 0,-18.39 0,4 7,0"/>
+          <polygon class="face top" points="0,-26.39 7,-22.39 0,-18.39 -7,-22.39"/>
+          
+        </g>
+      </g>
+      <g transform="translate(524.8 179.2)">
+        <g class="rise level-0" style="--delay:1.152s">
+          
+          
+          <polygon class="face top" points="0,-4 7,0 0,4 -7,0"/>
+          
+        </g>
+      </g>
+      <g transform="translate(660 180.6)">
+        <g class="rise level-3" style="--delay:1.316s">
+          <polygon class="face left" points="-7,-29.83 0,-25.83 0,4 -7,0"/>
+          <polygon class="face right" points="7,-29.83 0,-25.83 0,4 7,0"/>
+          <polygon class="face top" points="0,-33.83 7,-29.83 0,-25.83 -7,-29.83"/>
+          
+        </g>
+      </g>
+      <g transform="translate(574.6 180.75)">
+        <g class="rise level-0" style="--delay:1.215s">
+          
+          
+          <polygon class="face top" points="0,-4 7,0 0,4 -7,0"/>
+          
+        </g>
+      </g>
+      <g transform="translate(709.8 182.15)">
+        <g class="rise level-1" style="--delay:1.379s">
+          <polygon class="face left" points="-7,-21.66 0,-17.66 0,4 -7,0"/>
+          <polygon class="face right" points="7,-21.66 0,-17.66 0,4 7,0"/>
+          <polygon class="face top" points="0,-25.66 7,-21.66 0,-17.66 -7,-21.66"/>
+          
+        </g>
+      </g>
+      <g transform="translate(624.4 182.3)">
+        <g class="rise level-0" style="--delay:1.278s">
+          
+          
+          <polygon class="face top" points="0,-4 7,0 0,4 -7,0"/>
+          
+        </g>
+      </g>
+      <g transform="translate(539 182.45)">
+        <g class="rise level-1" style="--delay:1.177s">
+          <polygon class="face left" points="-7,-12.81 0,-8.81 0,4 -7,0"/>
+          <polygon class="face right" points="7,-12.81 0,-8.81 0,4 7,0"/>
+          <polygon class="face top" points="0,-16.81 7,-12.81 0,-8.81 -7,-12.81"/>
+          
+        </g>
+      </g>
+      <g transform="translate(674.2 183.85)">
+        <g class="rise level-1" style="--delay:1.341s">
+          <polygon class="face left" points="-7,-22.91 0,-18.91 0,4 -7,0"/>
+          <polygon class="face right" points="7,-22.91 0,-18.91 0,4 7,0"/>
+          <polygon class="face top" points="0,-26.91 7,-22.91 0,-18.91 -7,-22.91"/>
+          
+        </g>
+      </g>
+      <g transform="translate(588.8 184)">
+        <g class="rise level-1" style="--delay:1.240s">
+          <polygon class="face left" points="-7,-7.1 0,-3.1 0,4 -7,0"/>
+          <polygon class="face right" points="7,-7.1 0,-3.1 0,4 7,0"/>
+          <polygon class="face top" points="0,-11.1 7,-7.1 0,-3.1 -7,-7.1"/>
+          
+        </g>
+      </g>
+      <g transform="translate(724 185.4)">
+        <g class="rise level-1" style="--delay:1.404s">
+          <polygon class="face left" points="-7,-7.1 0,-3.1 0,4 -7,0"/>
+          <polygon class="face right" points="7,-7.1 0,-3.1 0,4 7,0"/>
+          <polygon class="face top" points="0,-11.1 7,-7.1 0,-3.1 -7,-7.1"/>
+          
+        </g>
+      </g>
+      <g transform="translate(638.6 185.55)">
+        <g class="rise level-1" style="--delay:1.303s">
+          <polygon class="face left" points="-7,-14.91 0,-10.91 0,4 -7,0"/>
+          <polygon class="face right" points="7,-14.91 0,-10.91 0,4 7,0"/>
+          <polygon class="face top" points="0,-18.91 7,-14.91 0,-10.91 -7,-14.91"/>
+          
+        </g>
+      </g>
+      <g transform="translate(553.2 185.7)">
+        <g class="rise level-1" style="--delay:1.202s">
+          <polygon class="face left" points="-7,-20.81 0,-16.81 0,4 -7,0"/>
+          <polygon class="face right" points="7,-20.81 0,-16.81 0,4 7,0"/>
+          <polygon class="face top" points="0,-24.81 7,-20.81 0,-16.81 -7,-20.81"/>
+          
+        </g>
+      </g>
+      <g transform="translate(688.4 187.1)">
+        <g class="rise level-4" style="--delay:1.366s">
+          <polygon class="face left" points="-7,-30 0,-26 0,4 -7,0"/>
+          <polygon class="face right" points="7,-30 0,-26 0,4 7,0"/>
+          <polygon class="face top" points="0,-34 7,-30 0,-26 -7,-30"/>
+          
+        </g>
+      </g>
+      <g transform="translate(603 187.25)">
+        <g class="rise level-1" style="--delay:1.265s">
+          <polygon class="face left" points="-7,-7.1 0,-3.1 0,4 -7,0"/>
+          <polygon class="face right" points="7,-7.1 0,-3.1 0,4 7,0"/>
+          <polygon class="face top" points="0,-11.1 7,-7.1 0,-3.1 -7,-7.1"/>
+          
+        </g>
+      </g>
+      <g transform="translate(652.8 188.8)">
+        <g class="rise level-2" style="--delay:1.328s">
+          <polygon class="face left" points="-7,-26.87 0,-22.87 0,4 -7,0"/>
+          <polygon class="face right" points="7,-26.87 0,-22.87 0,4 7,0"/>
+          <polygon class="face top" points="0,-30.87 7,-26.87 0,-22.87 -7,-26.87"/>
+          
+        </g>
+      </g>
+      <g transform="translate(567.4 188.95)">
+        <g class="rise level-0" style="--delay:1.227s">
+          
+          
+          <polygon class="face top" points="0,-4 7,0 0,4 -7,0"/>
+          
+        </g>
+      </g>
+      <g transform="translate(702.6 190.35)">
+        <g class="rise level-3" style="--delay:1.391s">
+          <polygon class="face left" points="-7,-30 0,-26 0,4 -7,0"/>
+          <polygon class="face right" points="7,-30 0,-26 0,4 7,0"/>
+          <polygon class="face top" points="0,-34 7,-30 0,-26 -7,-30"/>
+          
+        </g>
+      </g>
+      <g transform="translate(617.2 190.5)">
+        <g class="rise level-1" style="--delay:1.290s">
+          <polygon class="face left" points="-7,-11.86 0,-7.86 0,4 -7,0"/>
+          <polygon class="face right" points="7,-11.86 0,-7.86 0,4 7,0"/>
+          <polygon class="face top" points="0,-15.86 7,-11.86 0,-7.86 -7,-11.86"/>
+          
+        </g>
+      </g>
+      <g transform="translate(667 192.05)">
+        <g class="rise level-1" style="--delay:1.353s">
+          <polygon class="face left" points="-7,-20.62 0,-16.62 0,4 -7,0"/>
+          <polygon class="face right" points="7,-20.62 0,-16.62 0,4 7,0"/>
+          <polygon class="face top" points="0,-24.62 7,-20.62 0,-16.62 -7,-20.62"/>
+          
+        </g>
+      </g>
+      <g transform="translate(581.6 192.2)">
+        <g class="rise level-0" style="--delay:1.252s">
+          
+          
+          <polygon class="face top" points="0,-4 7,0 0,4 -7,0"/>
+          
+        </g>
+      </g>
+      <g transform="translate(716.8 193.6)">
+        <g class="rise level-1" style="--delay:1.416s">
+          <polygon class="face left" points="-7,-13.61 0,-9.61 0,4 -7,0"/>
+          <polygon class="face right" points="7,-13.61 0,-9.61 0,4 7,0"/>
+          <polygon class="face top" points="0,-17.61 7,-13.61 0,-9.61 -7,-13.61"/>
+          
+        </g>
+      </g>
+      <g transform="translate(631.4 193.75)">
+        <g class="rise level-1" style="--delay:1.315s">
+          <polygon class="face left" points="-7,-7.1 0,-3.1 0,4 -7,0"/>
+          <polygon class="face right" points="7,-7.1 0,-3.1 0,4 7,0"/>
+          <polygon class="face top" points="0,-11.1 7,-7.1 0,-3.1 -7,-7.1"/>
+          
+        </g>
+      </g>
+      <g transform="translate(681.2 195.3)">
+        <g class="rise level-3" style="--delay:1.378s">
+          <polygon class="face left" points="-7,-30 0,-26 0,4 -7,0"/>
+          <polygon class="face right" points="7,-30 0,-26 0,4 7,0"/>
+          <polygon class="face top" points="0,-34 7,-30 0,-26 -7,-30"/>
+          
+        </g>
+      </g>
+      <g transform="translate(595.8 195.45)">
+        <g class="rise level-1" style="--delay:1.277s">
+          <polygon class="face left" points="-7,-17.56 0,-13.56 0,4 -7,0"/>
+          <polygon class="face right" points="7,-17.56 0,-13.56 0,4 7,0"/>
+          <polygon class="face top" points="0,-21.56 7,-17.56 0,-13.56 -7,-17.56"/>
+          
+        </g>
+      </g>
+      <g transform="translate(645.6 197)">
+        <g class="rise level-1" style="--delay:1.340s">
+          <polygon class="face left" points="-7,-21.34 0,-17.34 0,4 -7,0"/>
+          <polygon class="face right" points="7,-21.34 0,-17.34 0,4 7,0"/>
+          <polygon class="face top" points="0,-25.34 7,-21.34 0,-17.34 -7,-21.34"/>
+          
+        </g>
+      </g>
+      <g transform="translate(695.4 198.55)">
+        <g class="rise level-3" style="--delay:1.403s">
+          <polygon class="face left" points="-7,-30 0,-26 0,4 -7,0"/>
+          <polygon class="face right" points="7,-30 0,-26 0,4 7,0"/>
+          <polygon class="face top" points="0,-34 7,-30 0,-26 -7,-30"/>
+          
+        </g>
+      </g>
+      <g transform="translate(610 198.7)">
+        <g class="rise level-0" style="--delay:1.302s">
+          
+          
+          <polygon class="face top" points="0,-4 7,0 0,4 -7,0"/>
+          
+        </g>
+      </g>
+      <g transform="translate(659.8 200.25)">
+        <g class="rise level-2" style="--delay:1.365s">
+          <polygon class="face left" points="-7,-27.1 0,-23.1 0,4 -7,0"/>
+          <polygon class="face right" points="7,-27.1 0,-23.1 0,4 7,0"/>
+          <polygon class="face top" points="0,-31.1 7,-27.1 0,-23.1 -7,-27.1"/>
+          
+        </g>
+      </g>
+      <g transform="translate(709.6 201.8)">
+        <g class="rise level-1" style="--delay:1.428s">
+          <polygon class="face left" points="-7,-18.51 0,-14.51 0,4 -7,0"/>
+          <polygon class="face right" points="7,-18.51 0,-14.51 0,4 7,0"/>
+          <polygon class="face top" points="0,-22.51 7,-18.51 0,-14.51 -7,-18.51"/>
+          
+        </g>
+      </g>
+      <g transform="translate(624.2 201.95)">
+        <g class="rise level-1" style="--delay:1.327s">
+          <polygon class="face left" points="-7,-7.1 0,-3.1 0,4 -7,0"/>
+          <polygon class="face right" points="7,-7.1 0,-3.1 0,4 7,0"/>
+          <polygon class="face top" points="0,-11.1 7,-7.1 0,-3.1 -7,-7.1"/>
+          
+        </g>
+      </g>
+      <g transform="translate(674 203.5)">
+        <g class="rise level-2" style="--delay:1.390s">
+          <polygon class="face left" points="-7,-26.87 0,-22.87 0,4 -7,0"/>
+          <polygon class="face right" points="7,-26.87 0,-22.87 0,4 7,0"/>
+          <polygon class="face top" points="0,-30.87 7,-26.87 0,-22.87 -7,-26.87"/>
+          
+        </g>
+      </g>
+      <g transform="translate(638.4 205.2)">
+        <g class="rise level-1" style="--delay:1.352s">
+          <polygon class="face left" points="-7,-20.42 0,-16.42 0,4 -7,0"/>
+          <polygon class="face right" points="7,-20.42 0,-16.42 0,4 7,0"/>
+          <polygon class="face top" points="0,-24.42 7,-20.42 0,-16.42 -7,-20.42"/>
+          
+        </g>
+      </g>
+      <g transform="translate(688.2 206.75)">
+        <g class="rise level-1" style="--delay:1.415s">
+          <polygon class="face left" points="-7,-19.31 0,-15.31 0,4 -7,0"/>
+          <polygon class="face right" points="7,-19.31 0,-15.31 0,4 7,0"/>
+          <polygon class="face top" points="0,-23.31 7,-19.31 0,-15.31 -7,-19.31"/>
+          
+        </g>
+      </g>
+      <g transform="translate(652.6 208.45)">
+        <g class="rise level-1" style="--delay:1.377s">
+          <polygon class="face left" points="-7,-23.82 0,-19.82 0,4 -7,0"/>
+          <polygon class="face right" points="7,-23.82 0,-19.82 0,4 7,0"/>
+          <polygon class="face top" points="0,-27.82 7,-23.82 0,-19.82 -7,-23.82"/>
+          
+        </g>
+      </g>
+      <g transform="translate(702.4 210)">
+        <g class="rise level-0" style="--delay:1.440s">
+          
+          
+          <polygon class="face top" points="0,-4 7,0 0,4 -7,0"/>
+          <polygon class="today-ring" points="0,-4 7,0 0,4 -7,0"/>
+        </g>
+      </g>
+      <g transform="translate(666.8 211.7)">
+        <g class="rise level-2" style="--delay:1.402s">
+          <polygon class="face left" points="-7,-27.15 0,-23.15 0,4 -7,0"/>
+          <polygon class="face right" points="7,-27.15 0,-23.15 0,4 7,0"/>
+          <polygon class="face top" points="0,-31.15 7,-27.15 0,-23.15 -7,-27.15"/>
+          
+        </g>
+      </g>
+      <g transform="translate(681 214.95)">
+        <g class="rise level-1" style="--delay:1.427s">
+          <polygon class="face left" points="-7,-22.53 0,-18.53 0,4 -7,0"/>
+          <polygon class="face right" points="7,-22.53 0,-18.53 0,4 7,0"/>
+          <polygon class="face top" points="0,-26.53 7,-22.53 0,-18.53 -7,-22.53"/>
+          
+        </g>
+      </g>
+</svg>
